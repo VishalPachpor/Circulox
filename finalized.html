@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Circulox — international legal and business advisory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,450;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f8f6f1;--ink:#3a302b;--muted:#71635a;--rule:#d3c3b7;--accent:#934e3c;--dark:#302b27;--ease:cubic-bezier(.2,.7,.2,1);font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);font-size:17px;color-scheme:light}*{box-sizing:border-box}body{margin:0}h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:Newsreader,serif;font-weight:400;letter-spacing:-.03em}p{font-size:1rem;line-height:1.7}button,input{font:inherit}button,a,summary{touch-action:manipulation;-webkit-tap-highlight-color:transparent}button,summary{cursor:pointer}a{color:inherit}a:visited{color:#806359}a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{outline:2px solid #bd8b69;outline-offset:6px}::selection{background:#d9b49d;color:#302b27}.shell{width:min(1440px,100%);padding-inline:64px;margin:auto}.label{font-size:12px;letter-spacing:.07em;text-transform:uppercase;font-weight:450}.section-label{font-family:Newsreader,serif;font-size:20px;font-style:italic;color:var(--accent)}.button{display:inline-flex;align-items:center;justify-content:center;min-height:50px;border:1px solid var(--ink);padding:14px 26px;background:var(--ink);color:#fff;font-size:13px;font-weight:450;transition:background-color 220ms ease,color 220ms ease,border-color 220ms ease;border-radius:0}.button:hover,.button:focus-visible{background:#675047;border-color:#675047}.button:active{background:#241d19}.link{display:inline-flex;align-items:center;position:relative;min-height:44px;padding:6px 0;text-decoration:none;font-size:13px}.link:after{content:'';position:absolute;left:0;right:0;bottom:5px;height:1px;background:currentColor;transform:scaleX(.3);transform-origin:left;transition:transform 250ms var(--ease);opacity:.65}.link:hover:after,.link:focus-visible:after{transform:scaleX(1)}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:15px;z-index:50}.skip:focus{top:10px}
+.masthead{position:absolute;top:0;left:0;width:100%;z-index:5}.masthead .shell{display:flex;align-items:center;justify-content:space-between;gap:32px;min-height:126px}.wordmark{font-family:Newsreader,serif;font-size:50px;font-style:italic;letter-spacing:-.065em;text-decoration:none;line-height:1;min-height:50px;display:inline-flex;align-items:center;color:var(--ink)}.wordmark:visited{color:var(--ink)}.masthead nav{display:flex;align-items:center;gap:28px;color:white;padding-right:6px}.masthead nav a{font-size:12px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none;position:relative;letter-spacing:.01em}.masthead nav a:after{content:'';position:absolute;bottom:6px;left:0;right:0;height:1px;transform:scaleX(0);transform-origin:left;background:currentColor;transition:transform 230ms var(--ease)}.masthead nav a:hover:after,.masthead nav a:focus-visible:after{transform:scaleX(1)}.masthead nav a:visited{color:white}.menu{display:none;border:0;background:none;color:var(--ink);min-height:48px;padding:12px 0;font-size:13px}
+.opening{display:grid;grid-template-columns:48% 52%;min-height:740px;position:relative}.opening-copy{display:flex;align-items:flex-end;padding:180px 54px 75px max(64px,calc((100vw - 1440px)/2 + 64px))}.opening-copy>div{max-width:540px}.opening h1{font-size:clamp(60px,5.5vw,88px);line-height:1.01;margin-top:24px;letter-spacing:-.045em;text-wrap:balance}.opening h1 em{font-weight:400}.opening-copy p{max-width:400px;margin-top:30px;font-size:16px;line-height:1.8;color:#65554b}.opening-actions{display:flex;align-items:center;gap:26px;margin-top:34px;flex-wrap:wrap}.opening-art{position:relative;overflow:hidden;background:#493a31;min-width:0}.opening-art img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0}.opening-art:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#1b18153b,transparent 35%);pointer-events:none}.opening-art .image-note{position:absolute;bottom:32px;right:40px;font-size:11px;letter-spacing:.08em;color:#fff;z-index:1;text-transform:uppercase}
+.clients{padding-block:27px 30px;background:#eee8de;border-bottom:1px solid var(--rule)}.clients-head{display:flex;justify-content:space-between;align-items:center;gap:20px}.clients-head h2{font-family:'DM Sans',sans-serif;font-size:13px;letter-spacing:0}.clients-head p{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.4}.pause{background:none;border:0;min-height:44px;padding:10px 0;text-decoration:underline;text-underline-offset:4px;color:var(--ink);font-size:12px}.logo-window{overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent);margin-top:18px}.logo-track{display:flex;width:max-content;animation:travel 38s linear infinite}.logo-group{display:flex;align-items:center;flex-shrink:0}.client-logo{width:205px;height:52px;display:flex;align-items:center;justify-content:center;font-size:16px;letter-spacing:.08em;color:#5f5146}.client-logo:nth-child(2n){font-weight:550;letter-spacing:0}.client-logo:nth-child(3n){font-family:Newsreader,serif;font-size:21px}.clients.paused .logo-track,.clients:focus-within .logo-track{animation-play-state:paused}@media(hover:hover){.clients:hover .logo-track{animation-play-state:paused}}@keyframes travel{to{transform:translateX(-50%)}}
+.about{padding-block:80px 84px}.about .section-label{padding-top:22px;border-top:1px solid #ba8d79}.about-statement{font-family:Newsreader,serif;font-size:clamp(32px,3.7vw,53px);line-height:1.12;letter-spacing:-.03em;margin-top:34px;max-width:1040px;color:#4d3c32}.about-bottom{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-top:40px}.about-bottom>div{grid-column:2;max-width:490px}.about-bottom p{font-size:16px;color:#6b5a50}.about-links{display:flex;gap:32px;margin-top:20px}.about-links button{border:0;background:transparent;color:var(--ink);font:inherit;font-size:13px;padding:0;min-height:44px;text-decoration:underline;text-underline-offset:7px;transition:color 200ms}.about-links button:hover{color:var(--accent)}
+.expertise{background:var(--dark);color:#f3eee7;padding-block:75px}.expertise .section-label{color:#d9b29a}.expertise-grid{display:grid;grid-template-columns:.65fr 1.35fr;gap:100px}.expertise h2{font-size:56px;line-height:1.03;margin-top:22px}.expertise-intro p{font-size:16px;line-height:1.8;margin-top:28px;max-width:290px;color:#d0c2b6}.practice{border-top:1px solid #75675c}.practice:last-child{border-bottom:1px solid #75675c}.practice summary{list-style:none;display:grid;grid-template-columns:25px 1fr 45px;gap:20px;align-items:center;padding-block:23px;min-height:84px}.practice summary::-webkit-details-marker{display:none}.practice-number{font-size:12px;color:#bea895;font-variant-numeric:tabular-nums}.practice-name{font-family:Newsreader,serif;font-size:27px;line-height:1.15;letter-spacing:-.015em;transition:color 200ms}.practice-state{font-size:12px;text-decoration:underline;text-underline-offset:5px;text-align:right;color:#d4c2b2}.practice-state:before{content:'View'}.practice[open] .practice-state:before{content:'Close'}.practice summary:hover .practice-name,.practice summary:focus-visible .practice-name{color:#e8b99a}.practice[open] .practice-name{color:#e8b99a}.practice-content{padding:0 65px 30px 45px;animation:soft-in 300ms var(--ease)}.practice-content p{font-size:16px;line-height:1.8;color:#d9cdc1;max-width:580px}.practice-content .button{margin-top:20px;background:none;color:#f3eee7;border-color:#b6a18e;min-height:46px;font-size:12px}.practice-content .button:hover{background:#f3eee7;color:#302b27}
+.international{padding-block:70px;background:#e7e1d5}.international-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px}.international h2{font-size:48px;line-height:1.1;margin-top:20px}.international p{font-size:16px;line-height:1.8;max-width:450px;color:#68584d}.countries{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:24px}.countries button{background:none;border:0;color:var(--ink);padding:8px 0;min-width:44px;min-height:44px;text-decoration:underline;text-decoration-color:#bca28e;text-underline-offset:6px;font-size:14px;transition:color 200ms}.countries button:hover{color:#934e3c}
+.insights{padding-block:76px 88px}.insights-heading{border-top:1px solid #ba8d79;padding-top:22px;display:flex;justify-content:space-between;gap:32px;align-items:flex-end}.insights h2{font-size:58px;line-height:1.05;margin-top:18px}.articles{margin-top:38px}.article{display:grid;grid-template-columns:.48fr 1fr .7fr;gap:45px;padding:36px 0;border-top:1px solid var(--rule);text-decoration:none;align-items:start}.article:last-child{border-bottom:1px solid var(--rule)}.article small{font-size:12px;color:var(--muted);padding-top:6px;line-height:1.6}.article h3{font-size:34px;line-height:1.1;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:5px;text-decoration-thickness:1px;transition:text-decoration-color 200ms}.article p{font-size:15px;color:#736257;line-height:1.75}.article:hover h3,.article:focus-visible h3{text-decoration-color:#934e3c}
+.conversation{background:#8b4b38;color:#fff5eb;padding-block:75px}.conversation-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:100px;align-items:center}.conversation h2{font-size:clamp(45px,4.6vw,66px);line-height:1.05;letter-spacing:-.035em}.conversation p{font-size:16px;color:#f1ddd0;max-width:390px;line-height:1.8}.conversation .button{background:#f8f6f1;color:#4b352b;border-color:#f8f6f1;margin-top:25px}.conversation .button:hover{background:#e6d4c3;border-color:#e6d4c3}.footer{padding-block:45px 30px;background:var(--paper)}.footer-top{display:flex;align-items:center;justify-content:space-between;gap:40px}.footer .wordmark{font-size:72px;min-height:80px}.footer nav{display:flex;gap:26px}.footer nav a{font-size:13px;min-height:44px;display:inline-flex;align-items:center;text-decoration:underline;text-underline-offset:5px;text-decoration-color:#cfb5a2}.footer-bottom{border-top:1px solid var(--rule);margin-top:35px;padding-top:20px;display:flex;justify-content:space-between;gap:30px;align-items:flex-start}.footer-bottom p{font-size:12px;color:#857162;max-width:650px;line-height:1.6}.motion-settings summary{font-size:12px;min-height:44px;cursor:pointer;text-decoration:underline;text-underline-offset:5px;list-style:none}.motion-settings summary::-webkit-details-marker{display:none}.motion-controls{font-size:12px;display:flex;flex-direction:column;gap:12px;padding-top:12px}.motion-controls button{border:0;background:none;text-decoration:underline;text-underline-offset:4px;min-height:44px;text-align:left;padding:0;color:var(--ink);font-size:12px}.motion-controls label{min-height:44px;display:flex;align-items:center;gap:8px}.motion-controls input{accent-color:var(--accent)}
+dialog{width:min(570px,calc(100% - 36px));max-height:85dvh;overflow:auto;padding:35px;border:1px solid #bda28c;color:var(--ink);background:var(--paper)}dialog::backdrop{background:#211b17a8}dialog[open]{animation:soft-in 220ms var(--ease)}dialog .close{margin-left:auto;display:block;background:none;color:var(--ink);border:0;text-decoration:underline;text-underline-offset:5px;padding:10px 0;min-height:44px;font-size:13px}dialog h2{font-size:42px;line-height:1.08;margin-top:25px}dialog p{font-size:16px;line-height:1.8;margin-top:22px}dialog .button{margin-top:25px}dialog .preview-note{font-size:12px;border-top:1px solid var(--rule);padding-top:15px;color:var(--muted)}body:has(dialog[open]){overflow:hidden}
+@keyframes soft-in{from{opacity:.15;transform:translateY(7px)}to{opacity:1;transform:none}}.entrance{animation:soft-in 650ms var(--ease) both}.opening-copy p.entrance{animation-delay:60ms}.opening-actions.entrance{animation-delay:120ms}.reveal.visible{animation:soft-in 500ms var(--ease) both}html.motion-off *,html.motion-off *:before,html.motion-off *:after{animation:none!important;transition:none!important}html.motion-off .duplicate{display:none}html.motion-off .logo-track{width:auto}html.motion-off .logo-group{flex-wrap:wrap}html.motion-off .client-logo{width:auto;padding:15px 25px}html.motion-off .logo-window{mask-image:none}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.duplicate{display:none}.logo-track{width:auto}.logo-group{flex-wrap:wrap}.client-logo{width:auto;padding:15px 25px}.logo-window{mask-image:none}}
+@media(min-width:1600px){.opening{min-height:800px}.opening-copy{padding-bottom:90px}}
+@media(max-width:1100px){.shell{padding-inline:40px}.opening-copy{padding:165px 35px 60px 40px}.opening{min-height:680px;grid-template-columns:50% 50%}.opening h1{font-size:68px}.opening-actions{gap:16px}.opening-actions .button{padding-inline:19px}.masthead nav{gap:22px}.expertise-grid{gap:55px;grid-template-columns:.6fr 1.4fr}.practice-name{font-size:25px}.conversation-grid{gap:55px}.article{gap:30px;grid-template-columns:.3fr 1fr .7fr}}
+@media(max-width:800px){.shell{padding-inline:28px}.masthead .shell{min-height:94px}.wordmark{font-size:44px}.menu{display:block}.masthead nav{display:none}.masthead nav.open{position:absolute;top:94px;left:0;right:0;display:flex;align-items:stretch;flex-direction:column;gap:8px;padding:20px 28px 28px;background:var(--paper);color:var(--ink);border-bottom:1px solid var(--rule)}.masthead nav.open a{font-size:16px}.masthead nav.open a:visited{color:var(--ink)}.opening{grid-template-columns:1fr;min-height:0}.opening-copy{padding:140px 28px 45px;display:block}.opening-copy>div{max-width:650px}.opening h1{font-size:70px;margin-top:22px;max-width:650px}.opening-copy p{max-width:500px;margin-top:24px}.opening-art{height:210px}.opening-art img{object-position:center 45%}.opening-art .image-note{right:28px;bottom:20px;font-size:10px}.clients{padding-block:23px}.about{padding-block:55px}.about-statement{font-size:39px;line-height:1.13;margin-top:30px}.about-bottom{grid-template-columns:1fr;margin-top:30px}.about-bottom>div{grid-column:1;max-width:580px}.expertise{padding-block:55px}.expertise-grid{grid-template-columns:1fr;gap:38px}.expertise h2{font-size:47px;margin-top:16px}.expertise-intro p{max-width:600px;margin-top:20px}.practice summary{min-height:88px}.practice-name{font-size:27px}.international{padding-block:55px}.international-grid{grid-template-columns:1fr;gap:28px}.international h2{font-size:43px;margin-top:16px}.international p{max-width:600px}.insights{padding-block:55px}.insights h2{font-size:48px}.article{grid-template-columns:110px 1fr;gap:20px}.article p{grid-column:2}.article h3{font-size:32px}.conversation{padding-block:55px}.conversation-grid{grid-template-columns:1fr;gap:30px}.conversation h2{font-size:55px}.conversation p{max-width:600px}.footer-top{align-items:flex-start}.footer nav{gap:10px 22px;flex-wrap:wrap;max-width:260px}.footer .wordmark{font-size:58px}.footer-bottom{gap:20px}.footer-bottom p{max-width:420px}}
+@media(max-width:480px){.shell{padding-inline:24px}.masthead .shell{min-height:86px}.wordmark{font-size:43px}.masthead nav.open{top:86px;padding-inline:24px}.opening-copy{padding:132px 24px 40px;min-height:470px}.opening h1{font-size:57px;line-height:1.02;letter-spacing:-.045em;max-width:345px}.opening .label{font-size:11px;letter-spacing:.08em}.opening-copy p{font-size:16px;line-height:1.75;margin-top:22px}.opening-actions{margin-top:26px;gap:12px 22px}.opening-actions .button{font-size:12px;min-height:48px;padding:12px 18px}.opening-actions .link{font-size:12px}.opening-art{height:115px}.opening-art .image-note{display:none}.clients-head p{font-size:11px;max-width:220px}.client-logo{width:160px;height:44px;font-size:13px}.client-logo:nth-child(3n){font-size:18px}.logo-window{margin-top:12px}.clients{padding-block:16px 20px}.about{padding-block:45px}.section-label{font-size:18px}.about-statement{font-size:32px;line-height:1.15}.about-bottom p{font-size:16px}.about-links{gap:30px;margin-top:18px}.expertise{padding-block:45px}.expertise-grid{gap:30px}.expertise h2{font-size:44px}.practice summary{grid-template-columns:20px 1fr 32px;gap:12px;padding-block:24px;min-height:88px}.practice-name{font-size:24px;line-height:1.15}.practice-state{font-size:11px}.practice-number{font-size:11px}.practice-content{padding:0 0 28px 32px}.practice-content p{font-size:16px;line-height:1.7}.practice-content .button{min-height:48px}.international{padding-block:45px}.international h2{font-size:39px}.countries{gap:10px 22px}.countries button{font-size:14px}.insights{padding-block:45px}.insights-heading{align-items:flex-start;gap:15px}.insights h2{font-size:44px}.insights-heading .link{font-size:12px;margin-top:32px;white-space:nowrap}.article{grid-template-columns:1fr;gap:15px;padding-block:27px}.article p{grid-column:1;font-size:16px}.article h3{font-size:31px}.articles{margin-top:28px}.article small{font-size:11px}.conversation{padding-block:45px}.conversation-grid{gap:25px}.conversation h2{font-size:48px}.footer{padding-top:28px}.footer-top{flex-direction:column;gap:18px}.footer .wordmark{font-size:62px}.footer nav{max-width:none;gap:6px 24px}.footer-bottom{flex-direction:column;gap:20px;margin-top:20px}.footer-bottom p{font-size:11px}.footer nav a{font-size:12px}.motion-settings{width:100%}dialog{padding:25px}dialog h2{font-size:36px}}
+.menu,.pause,.footer nav a{min-width:44px}.image-note{font-size:12px!important}.clients-head p,.practice-number,.practice-state,.article small,.footer-bottom p{font-size:12px}.opening-art:after{background:linear-gradient(180deg,#1b181570,transparent 35%)}
+/* Open practice briefs; shared role colours keep hierarchy consistent. */
+:root{--practice-surface:var(--dark);--practice-ink:#f3eee7;--practice-muted:#d0c2b6;--practice-rule:#75675c;--practice-action:#e8b99a}
+.expertise{background:var(--practice-surface);color:var(--practice-ink);padding-block:60px 64px}
+.expertise-index{border-top:1px solid var(--practice-rule);padding-top:32px}
+.expertise-heading{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;margin-bottom:42px}
+.expertise-heading h2{font-size:38px;line-height:1.15;margin:0;letter-spacing:-.025em}
+.expertise-heading>div>p{font-size:16px;line-height:1.65;max-width:440px;color:var(--practice-muted)}
+.expertise-consult{border:0;background:none;color:var(--practice-action);padding:10px 0;min-height:44px;font-size:14px;text-decoration:underline;text-underline-offset:5px;margin-top:8px}
+.practice-index{display:grid;grid-template-columns:1fr 1fr;gap:32px 80px;list-style:none;margin:0;padding:0}
+.practice-index li{max-width:520px}
+.practice-link{display:block;border:0;background:none;padding:0 0 8px;color:var(--practice-ink);min-height:44px;max-width:100%;font-family:Newsreader,serif;font-size:26px;text-align:left;line-height:1.2;letter-spacing:-.015em;text-decoration:none;transition:color 200ms ease}
+.practice-link:hover,.practice-link:focus-visible{color:var(--practice-action);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+.practice-index li p{font-size:16px;line-height:1.6;max-width:450px;color:var(--practice-muted)}
+@media(max-width:1100px){.expertise-heading,.practice-index{column-gap:44px}.practice-link{font-size:24px}}
+@media(max-width:800px){.expertise{padding-block:40px 44px}.expertise-heading{column-gap:32px;margin-bottom:30px}.expertise-heading h2{font-size:34px}.practice-index{gap:26px 32px}.practice-link{font-size:23px}}
+@media(max-width:560px){.expertise{padding-block:24px 36px}.expertise-index{padding-top:24px}.expertise-heading{grid-template-columns:1fr;gap:12px;margin-bottom:26px}.expertise-heading h2{font-size:32px}.expertise-heading>div>p{display:none}.expertise-consult{margin-top:0;padding-top:0;min-height:36px}.practice-index{grid-template-columns:1fr;gap:22px}.practice-link{font-size:22px;line-height:1.2;padding-bottom:6px;min-height:44px}.practice-index li p{font-size:16px;line-height:1.5}}
+
+/* Shared page rules: role-based colour, restrained type and a consistent spacing scale. */
+:root{--surface-soft:#eee8de;--section-space:64px;--section-heading:40px;--body-size:16px;--space-1:8px;--space-2:16px;--space-3:24px;--space-4:32px;--space-5:48px}
+.clients,.international{background:var(--surface-soft)}
+.about,.expertise,.international,.insights,.conversation{padding-block:var(--section-space)}
+.about .section-label,.insights-heading{border-color:var(--rule)}
+.about-statement{font-size:44px;line-height:1.17;max-width:1030px;color:var(--ink)}
+.about-bottom p,.international p,.article p{font-size:var(--body-size);line-height:1.65;color:var(--muted)}
+.expertise-heading h2,.international h2,.insights h2{font-size:var(--section-heading);line-height:1.15;letter-spacing:-.025em}
+.international h2,.insights h2{margin-top:16px}
+.expertise-heading{margin-bottom:32px}
+.practice-index{row-gap:32px}
+.practice-index li h3{margin-bottom:4px}
+.practice-link{min-height:44px;padding-bottom:4px}
+.expertise-consult{min-height:44px;font-size:14px;padding:10px 0}
+.opening h1{font-size:clamp(52px,5vw,72px);line-height:1.04;letter-spacing:-.035em}
+.opening-copy p{font-size:16px;line-height:1.7}
+.button{font-size:14px;min-height:50px;padding:14px 24px}
+.opening-actions .link{font-size:14px}
+.conversation h2{font-size:48px;line-height:1.1}
+.masthead nav .nav-booking{font-size:13px;padding:12px 16px;min-height:44px;background:var(--paper);color:var(--ink);border:0;transition:background 200ms ease}
+.masthead nav .nav-booking:hover{background:var(--surface-soft)}
+.masthead nav a{font-size:13px}
+.article h3{font-size:30px;line-height:1.2}
+.countries button{font-size:16px}
+.footer-bottom p{color:var(--muted)}
+@media(max-width:1100px){.masthead nav{gap:18px}.masthead nav .nav-booking{padding-inline:12px}.opening h1{font-size:60px}}
+@media(max-width:800px){:root{--section-space:44px;--section-heading:34px}.masthead nav.open .nav-booking{align-self:flex-start;background:var(--ink);color:var(--paper);padding-inline:20px}.about-statement{font-size:36px}.opening h1{font-size:60px;max-width:580px}.conversation h2{font-size:42px}.expertise-index{padding-top:24px}}
+@media(max-width:480px){:root{--section-space:36px;--section-heading:32px}.opening h1{font-size:48px;max-width:345px}.opening-copy{padding-bottom:32px;min-height:0}.opening-copy p{margin-top:20px}.opening-actions{margin-top:24px}.opening-actions .button{font-size:14px;min-height:50px;padding:14px 20px}.opening-actions .link{font-size:14px}.about-statement{font-size:30px;line-height:1.2;margin-top:24px}.about-bottom{margin-top:24px}.about-links button{font-size:14px}.expertise-heading{margin-bottom:24px;gap:8px}.practice-index{gap:20px}.practice-index li p{line-height:1.5}.practice-link{font-size:22px}.expertise-consult{padding-block:10px}.conversation h2{font-size:38px}.article h3{font-size:28px}.insights-heading{display:block}.insights-heading .link{margin-top:8px;font-size:14px}.articles{margin-top:20px}.section-label{font-size:18px}.countries{column-gap:24px}}
+
+/* Phone briefs: preserve each discipline, shorten supporting scope, and tighten grouping. */
+.practice-scope-phone{display:none}
+@media(max-width:560px){
+ .expertise{padding-block:28px}
+ .expertise-index{padding-top:20px}
+ .expertise-heading{margin-bottom:18px;gap:4px}
+ .expertise-heading h2{font-size:30px}
+ .expertise-consult{margin-top:0;min-height:44px;padding-block:10px}
+ .practice-index{gap:14px}
+ .practice-index li h3{margin-bottom:0}
+ .practice-link{font-size:20px;line-height:1.2;min-height:44px;padding-block:5px}
+ .practice-index li p{font-size:16px;line-height:1.4}
+ .practice-scope-full{display:none}
+ .practice-scope-phone{display:inline}
+}
+
+/* Editorial bento: unequal practice areas, only two quiet tonal surfaces. */
+.practice-bento{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px 32px}
+.practice-area{padding:28px 30px;min-width:0}
+.practice-area:nth-child(1){grid-column:span 7;background:#3c342e}
+.practice-area:nth-child(2){grid-column:span 5}
+.practice-area:nth-child(3){grid-column:span 5}
+.practice-area:nth-child(4){grid-column:span 7;background:#35302b}
+.practice-area h3{font-size:28px;line-height:1.15;color:var(--practice-ink);margin:0 0 12px;letter-spacing:-.02em}
+.practice-area:first-child h3{font-size:32px}
+.practice-area>p{font-size:16px;line-height:1.6;color:var(--practice-muted);max-width:450px;margin-bottom:16px}
+.practice-area ul{padding:0;margin:0;list-style:none}
+.practice-area .practice-link{font-family:'DM Sans',sans-serif;font-size:16px;line-height:1.5;letter-spacing:0;min-height:44px;padding:9px 0;text-decoration:underline;text-decoration-color:#857467;text-decoration-thickness:1px;text-underline-offset:5px}
+.practice-area .practice-link:hover,.practice-area .practice-link:focus-visible{text-decoration-color:var(--practice-action)}
+.practice-area .area-kicker{font-family:'DM Sans',sans-serif;font-size:13px;color:var(--practice-action);margin-bottom:16px;letter-spacing:.035em}
+@media(max-width:1100px){.practice-bento{gap:20px}.practice-area{padding:24px}.practice-area h3{font-size:26px}.practice-area:first-child h3{font-size:30px}}
+@media(max-width:700px){.practice-bento{grid-template-columns:1fr;gap:14px}.practice-area:nth-child(n){grid-column:auto;padding:18px 20px;background:none}.practice-area:first-child{background:#3c342e}.practice-area:nth-child(4){background:none}.practice-area h3,.practice-area:first-child h3{font-size:25px;margin-bottom:8px}.practice-area>p,.practice-area .area-kicker{display:none}.practice-area .practice-link{font-size:16px;padding:8px 0;min-height:44px}.expertise-heading{margin-bottom:20px}.practice-area:not(:first-child){padding-block:10px}.expertise{padding-bottom:28px}}
+
+/* A connected bento composition, with the same grouping on every screen. */
+.practice-bento{grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+.practice-area:nth-child(n){background:#38312c;padding:28px;grid-column:auto;grid-row:auto}
+.practice-area:nth-child(1){grid-column:1 / 6;grid-row:1 / 3;background:#44382f;display:flex;flex-direction:column;justify-content:space-between}
+.practice-area:nth-child(2){grid-column:6 / 13;grid-row:1;background:#37312c}
+.practice-area:nth-child(3){grid-column:6 / 10;grid-row:2}
+.practice-area:nth-child(4){grid-column:10 / 13;grid-row:2;background:#3b332d}
+.practice-area h3{font-size:26px;margin-bottom:12px;line-height:1.15}
+.practice-area:first-child h3{font-size:32px;max-width:330px}
+.practice-area:first-child>p{margin-block:20px auto;max-width:330px}
+.practice-area:first-child ul{margin-top:32px}
+.practice-area>p{font-size:16px;margin-bottom:14px;line-height:1.55}
+.practice-area .practice-link{font-size:16px;line-height:1.45;text-decoration:none;min-height:44px;padding:9px 0}
+.practice-area .practice-link:hover,.practice-area .practice-link:focus-visible{text-decoration:underline;text-underline-offset:5px}
+.practice-short{display:none}
+@media(max-width:1100px){.practice-area:nth-child(n){padding:22px}.practice-area:nth-child(3){grid-column:6 / 10}.practice-area h3{font-size:24px}.practice-area:first-child h3{font-size:29px}}
+@media(max-width:800px){.practice-bento{grid-template-columns:1fr 1fr;gap:12px}.practice-area:nth-child(n){grid-column:auto;grid-row:auto;display:block;padding:20px}.practice-area:first-child h3{font-size:26px}.practice-area:first-child>p{margin:12px 0}.practice-area:first-child ul{margin-top:12px}.practice-area>p{display:none}}
+@media(max-width:560px){
+ .practice-bento{grid-template-columns:1fr 1fr;gap:10px}
+ .practice-area:nth-child(n){padding:16px 14px;display:flex;flex-direction:column;justify-content:space-between}
+ .practice-area h3,.practice-area:first-child h3{font-size:21px;line-height:1.12;margin:0 0 14px;letter-spacing:-.015em}
+ .practice-area:first-child>p,.practice-area>p{display:none}
+ .practice-area:first-child ul{margin-top:0}
+ .practice-area .practice-link{font-size:16px;line-height:1.35;padding:7px 0;min-height:44px}
+ .practice-long{display:none}.practice-short{display:inline}
+ .expertise-heading{margin-bottom:18px}
+}
+.formation-markets{margin-block:28px 8px}.formation-markets>span{font-size:13px;color:var(--practice-action)}.formation-markets p{font-size:16px;line-height:1.8;color:var(--practice-muted);margin-top:8px}.practice-area:first-child{justify-content:flex-start}.practice-area:first-child>p{margin-bottom:0}.practice-area:first-child ul{margin-top:auto;padding-top:24px}@media(max-width:800px){.formation-markets{display:none}.practice-area:first-child ul{padding-top:0;margin-top:0}}
+a.button{text-decoration:none}.practice-area .practice-link{display:block;color:var(--practice-ink)}.practice-area .practice-link:visited{color:#dbc4b3}.about-links:empty{display:none}
+.journal-home{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:44px;margin-top:32px}.journal-home-entry{display:block;text-decoration:none;padding-block:4px}.journal-home-meta{font-size:13px;color:var(--muted);line-height:1.6}.journal-home-meta span{display:block;color:var(--accent)}.journal-home-entry h3{font-size:29px;line-height:1.15;margin-top:16px}.journal-home-entry:first-child h3{font-size:34px}.journal-home-entry p{font-size:16px;line-height:1.65;color:var(--muted);margin-top:18px}.journal-home-entry:hover h3,.journal-home-entry:focus-visible h3{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}.social-notes{background:var(--surface-soft);padding-block:56px}.social-layout{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}.social-layout h2{font-size:40px;line-height:1.15;margin-top:16px}.social-layout>div>p{font-size:16px;line-height:1.7;color:var(--muted);max-width:390px;margin-top:20px}.social-layout .link{font-size:14px;margin-top:16px}.x-feed{max-width:550px;min-width:0}.x-feed>a{display:inline-flex;align-items:center;min-height:44px}.x-feed-status{font-size:14px!important;color:var(--muted);line-height:1.6}.x-feed iframe{max-width:100%!important}.x-feed[data-loaded="true"] .x-feed-status{display:none}
+@media(max-width:800px){.journal-home{gap:28px}.journal-home-entry h3,.journal-home-entry:first-child h3{font-size:27px}.social-layout{gap:40px}.social-layout h2{font-size:34px}}
+@media(max-width:560px){.journal-home{grid-template-columns:1fr;gap:0;margin-top:20px}.journal-home-entry{padding-block:22px;border-top:1px solid var(--rule)}.journal-home-entry h3,.journal-home-entry:first-child h3{font-size:28px;margin-top:12px}.journal-home-entry p{margin-top:12px}.journal-home-meta span{display:inline;margin-left:10px}.social-notes{padding-block:36px}.social-layout{grid-template-columns:1fr;gap:24px}.social-layout h2{font-size:32px}.x-feed{min-height:100px}}
+
+.social-header{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:28px}.social-header h2{font-size:40px;line-height:1.15;margin-top:16px}.social-header .link{font-size:14px}.x-feed{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:none;min-width:0;align-items:start}.x-post{min-width:0}.x-post blockquote{margin:0;padding:0}.x-post blockquote a{display:inline-flex;align-items:center;min-height:44px;font-size:16px}.x-post iframe{max-width:100%!important}.x-post-status{font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}.x-post[data-loaded="true"] .x-post-status{display:none}.x-pagination{display:none}
+@media(max-width:800px){.x-feed{gap:16px}.social-header h2{font-size:34px}}
+@media(max-width:600px){.social-header{align-items:flex-start;flex-direction:column;gap:10px;margin-bottom:22px}.social-header h2{font-size:32px}.social-header .link{margin-top:0}.x-feed{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:100%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;padding-bottom:10px}.x-post{scroll-snap-align:start}.x-pagination{display:flex;align-items:center;justify-content:space-between;font-size:14px;color:var(--muted);margin-top:10px}.x-pagination button{background:none;border:0;color:var(--ink);font:inherit;text-decoration:underline;text-underline-offset:5px;min-height:44px;min-width:64px;padding:10px 0;margin-left:18px}.x-pagination button:disabled{opacity:.4;cursor:default}}
+@media(max-width:600px){.x-feed{overflow-y:hidden;transition:height 180ms ease}}@media(prefers-reduced-motion:reduce){.x-feed{transition:none}}
+/* Compact social bento: topic previews link to the original posts. */
+.social-notes{padding-block:44px}
+.social-header{margin-bottom:24px}
+.social-bento{display:grid;grid-template-columns:1.1fr 1fr;gap:0 40px;align-items:stretch}
+.social-brief{display:block;text-decoration:none;padding:16px 0;min-width:0;color:var(--ink)}
+.social-brief:visited{color:var(--ink)}
+.social-brief:first-child{grid-row:span 2;background:#e5dccf;padding:26px 30px}
+.social-brief:nth-child(2){padding-top:0}
+.social-brief:nth-child(3){border-top:1px solid #c7b7a6;padding-bottom:0}
+.social-brief-meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted);line-height:1.5}
+.social-brief-meta>span{color:var(--accent)}
+.social-brief h3{font-size:26px;line-height:1.13;margin-top:12px;max-width:510px}
+.social-brief:first-child h3{font-size:34px;max-width:440px;margin-top:20px}
+.social-brief p{font-size:16px;line-height:1.6;color:var(--muted);margin-top:10px;max-width:450px}
+.social-brief-source{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:44px;font-size:13px;color:var(--muted);margin-top:12px}
+.social-brief-source>span{font-size:14px;color:var(--ink);text-decoration:underline;text-underline-offset:5px;text-decoration-color:#a98c77}
+.social-brief:hover h3,.social-brief:focus-visible h3{color:var(--accent)}
+.social-brief h3{transition:color 180ms ease}
+@media(max-width:800px){.social-bento{gap:0 28px}.social-brief:first-child{padding:24px}.social-brief:first-child h3{font-size:30px}.social-brief h3{font-size:24px}}
+@media(max-width:560px){.social-notes{padding-block:32px}.social-header{gap:4px;margin-bottom:18px}.social-header .section-label{font-size:16px}.social-header h2{font-size:30px;margin-top:10px}.social-bento{grid-template-columns:1fr 1fr;gap:18px 20px}.social-brief:first-child{grid-column:1 / -1;grid-row:auto;padding:20px}.social-brief:first-child h3{font-size:27px;margin-top:12px}.social-brief h3{font-size:22px;margin-top:10px;line-height:1.16}.social-brief:nth-child(n+2){padding:0;border-top:0}.social-brief:not(:first-child) p{display:none}.social-brief-meta{font-size:12px;gap:4px;display:flex;flex-direction:column;align-items:flex-start}.social-brief:first-child .social-brief-meta{flex-direction:row;gap:16px}.social-brief-source{margin-top:10px;min-height:44px;font-size:12px;gap:8px}.social-brief:not(:first-child) .social-brief-source{display:block}.social-brief:not(:first-child) .social-brief-source>span{display:flex;align-items:center;min-height:44px}.social-brief-source>span{font-size:14px}.social-brief:first-child p{margin-top:10px}}
+.social-brief-source{justify-content:flex-end}.social-brief:first-child{display:flex;flex-direction:column}.social-brief:first-child .social-brief-source{margin-top:auto;padding-top:16px}@media(max-width:560px){.social-brief:nth-child(n+2){display:flex;flex-direction:column}.social-brief:not(:first-child) .social-brief-meta{flex-direction:row;gap:6px;flex-wrap:wrap}.social-brief:not(:first-child) .social-brief-source{margin-top:auto;padding-top:8px}.social-brief:first-child .social-brief-source{padding-top:10px}}
+.social-brief:first-child p,.social-brief:first-child .social-brief-meta time{color:#67594f}
+/* Keep native tweet identity; hide media previews through X's supported embed option. */
+.social-notes{padding-block:36px}.social-header{margin-bottom:22px}.x-feed{grid-template-columns:1.15fr 1fr 1fr;gap:20px;align-items:start}.x-post{background:none;padding:0;border:0}.x-post .twitter-tweet{margin:0!important}.social-header h2{font-size:38px}
+@media(max-width:800px){.x-feed{gap:16px}.social-header h2{font-size:34px}}
+@media(max-width:600px){.social-notes{padding-block:28px}.social-header{gap:4px;margin-bottom:16px}.social-header h2{font-size:30px}.x-feed{grid-template-columns:none;grid-auto-columns:100%;gap:16px;overflow-y:hidden}.x-post{padding:0}.x-pagination{margin-top:4px}}
+
+/* Asymmetric native tweet bento: the long conversation anchors two shorter posts. */
+@media(min-width:801px){
+ .x-feed{grid-template-columns:1.05fr 1fr;grid-template-areas:"anchor upper" "anchor lower";gap:18px 24px;max-width:1120px;margin-inline:auto;align-items:start}
+ .x-post:nth-child(1){grid-area:upper}
+ .x-post:nth-child(2){grid-area:anchor;align-self:start;position:sticky;top:24px}
+ .x-post:nth-child(3){grid-area:lower}
+ .x-post iframe{max-width:100%!important}
+}
+@media(min-width:601px) and (max-width:800px){.x-feed{grid-template-columns:1fr 1fr;gap:18px}.x-post:nth-child(2){grid-column:2;grid-row:1 / 3}.x-post:nth-child(1){grid-column:1;grid-row:1}.x-post:nth-child(3){grid-column:1;grid-row:2}}
+@media(max-width:600px){.x-feed{grid-template-areas:none;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:100%;max-width:none;margin-inline:0}.x-post:nth-child(n){grid-area:auto;grid-column:auto;grid-row:auto;position:static}}
+
+/* An aligned jurisdiction directory, not a cloud of country links. */
+.international{padding-block:48px}
+.jurisdiction-heading{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:32px}
+.jurisdiction-heading h2{margin-top:12px;font-size:40px;line-height:1.1}
+.jurisdiction-heading>p{font-size:16px;line-height:1.65;color:var(--muted);max-width:510px;margin-bottom:2px}
+.jurisdiction-directory{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));column-gap:40px;row-gap:24px;list-style:none;margin:0;padding:0;border-top:1px solid #c7b7a6;padding-top:26px}
+.jurisdiction-directory a{display:flex;flex-direction:column;justify-content:flex-start;gap:7px;min-height:62px;text-decoration:none;padding:4px 0;color:var(--ink)}
+.jurisdiction-directory a:visited{color:#715141}
+.jurisdiction-region{font-size:13px;color:var(--muted);line-height:1.4}
+.jurisdiction-name{font-family:Newsreader,serif;font-size:26px;line-height:1.15;letter-spacing:-.015em;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:5px;text-decoration-thickness:1px;transition:color 180ms ease,text-decoration-color 180ms ease}
+.jurisdiction-directory a:hover .jurisdiction-name,.jurisdiction-directory a:focus-visible .jurisdiction-name{color:var(--accent);text-decoration-color:var(--accent)}
+@media(max-width:1100px){.jurisdiction-directory{column-gap:24px}.jurisdiction-name{font-size:24px}.jurisdiction-heading{gap:40px}}
+@media(max-width:800px){.jurisdiction-heading{grid-template-columns:1fr;gap:18px;margin-bottom:26px}.jurisdiction-heading>p{max-width:570px}.jurisdiction-heading h2{font-size:34px}.jurisdiction-directory{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 30px}}
+@media(max-width:480px){.international{padding-block:32px}.jurisdiction-heading h2{font-size:32px;margin-top:10px}.jurisdiction-heading .section-label{font-size:18px}.jurisdiction-heading{gap:16px;margin-bottom:22px}.jurisdiction-directory{gap:16px 24px;padding-top:20px}.jurisdiction-directory a{min-height:68px;gap:5px}.jurisdiction-region{font-size:12px}.jurisdiction-name{font-size:22px;line-height:1.15}}
+
+/* Purpose-led jurisdiction explorer, informed by specialist advisory websites. */
+.international{padding-block:48px;background:var(--surface-soft)}
+.jurisdiction-explorer{display:grid;grid-template-columns:.85fr 1.4fr;gap:90px;align-items:start}
+.jurisdiction-context h2{font-size:38px;line-height:1.1;margin-top:16px;letter-spacing:-.025em}
+.jurisdiction-context>p{font-size:16px;line-height:1.7;color:var(--muted);margin-top:22px;max-width:340px}
+.jurisdiction-context .link{font-size:14px;margin-top:18px;max-width:100%}
+.jurisdiction-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px 20px;padding-bottom:20px;border-bottom:1px solid #c7b7a6}
+.jurisdiction-tabs button{background:none;border:0;border-bottom:2px solid transparent;font-size:14px;color:var(--muted);padding:10px 0;min-height:44px;text-align:left;transition:color 180ms ease,border-color 180ms ease;line-height:1.4}
+.jurisdiction-tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:550}
+.jurisdiction-tabs button:hover{color:var(--accent)}
+.jurisdiction-detail{padding-top:24px;min-height:290px}
+.jurisdiction-detail-label{font-size:13px;color:var(--accent);line-height:1.5}
+.jurisdiction-detail h3{font-size:32px;line-height:1.15;margin-top:10px}
+.jurisdiction-detail>p{font-size:16px;line-height:1.65;max-width:650px;color:var(--muted);margin-top:14px}
+.jurisdiction-topics{display:grid;grid-template-columns:130px 1fr;gap:20px;margin-top:20px;align-items:start}
+.jurisdiction-topics>span{font-size:13px;color:var(--muted);line-height:1.6}
+.jurisdiction-topics ul{display:flex;flex-wrap:wrap;gap:8px 20px;list-style:none;padding:0;margin:0}
+.jurisdiction-topics li{font-size:14px;line-height:1.6;color:var(--ink)}
+.jurisdiction-detail .link{font-size:14px;margin-top:18px}
+.jurisdiction-picker{display:none}
+@media(max-width:1100px){.jurisdiction-explorer{gap:48px;grid-template-columns:.8fr 1.2fr}.jurisdiction-tabs{gap:4px 14px}.jurisdiction-context h2{font-size:35px}.jurisdiction-topics{grid-template-columns:1fr;gap:8px}}
+@media(max-width:800px){.jurisdiction-explorer{grid-template-columns:1fr;gap:28px}.jurisdiction-context h2{font-size:34px}.jurisdiction-context>p{max-width:600px;margin-top:16px}.jurisdiction-context .link{margin-top:8px}.jurisdiction-detail{min-height:0}.jurisdiction-topics{grid-template-columns:130px 1fr;gap:20px}}
+@media(max-width:560px){.international{padding-block:32px}.jurisdiction-context .section-label{font-size:18px}.jurisdiction-context h2{font-size:32px;margin-top:12px}.jurisdiction-context>p{margin-top:16px}.jurisdiction-context .link{margin-top:8px}.jurisdiction-explorer{gap:24px}.jurisdiction-tabs{display:none}.jurisdiction-picker{display:block}.jurisdiction-picker label{display:block;font-size:13px;color:var(--muted);margin-bottom:8px}.jurisdiction-picker select{width:100%;font:inherit;color:var(--ink);min-height:48px;background:transparent;border:0;border-bottom:1px solid #a58d7a;border-radius:0;padding:8px 0}.jurisdiction-picker select:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.jurisdiction-detail{padding-top:22px}.jurisdiction-detail h3{font-size:28px}.jurisdiction-detail>p{margin-top:12px;line-height:1.6}.jurisdiction-topics{grid-template-columns:1fr;gap:8px;margin-top:16px}.jurisdiction-topics ul{display:block}.jurisdiction-topics li{font-size:16px;line-height:1.5;padding-block:3px}.jurisdiction-detail .link{margin-top:14px}.jurisdiction-detail-label{font-size:12px}}
+@media(max-width:560px){.jurisdiction-context .link{display:none}.jurisdiction-explorer{gap:20px}.jurisdiction-detail-label{display:none}.jurisdiction-detail{padding-top:18px}.jurisdiction-detail h3{margin-top:0}.jurisdiction-topics li{padding-block:0}.jurisdiction-detail .link{margin-top:10px}}
+
+/* Mobile jurisdiction reading rhythm: one country label, content-sized spacing. */
+@media(max-width:560px){
+ .international{padding-block:28px}
+ .jurisdiction-context h2{margin-top:10px}
+ .jurisdiction-context>p{margin-top:12px;line-height:1.5}
+ .jurisdiction-explorer{gap:18px}
+ .jurisdiction-picker label{margin-bottom:4px}
+ .jurisdiction-detail{padding-top:16px}
+ .jurisdiction-detail h3{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .jurisdiction-detail>p{margin-top:0;line-height:1.5}
+ .jurisdiction-topics{margin-top:14px;gap:6px}
+ .jurisdiction-detail .link{font-size:16px;min-height:44px;margin-top:12px}
+}
+
+.jurisdiction-mobile-name{display:none}
+@media(max-width:560px){
+ .jurisdiction-picker{display:none}
+ .jurisdiction-tabs{display:grid;grid-template-columns:.8fr .8fr 1.2fr 1.2fr;gap:0 8px;padding-bottom:12px}
+ .jurisdiction-tabs button{font-size:14px;min-height:44px;white-space:nowrap}
+ .jurisdiction-desktop-name{display:none}
+ .jurisdiction-mobile-name{display:inline}
+ .jurisdiction-detail h3{position:static;width:auto;height:auto;margin:0;overflow:visible;clip-path:none;white-space:normal;font-size:26px;line-height:1.15}
+ .jurisdiction-detail>p{margin-top:10px}
+}
+
+/* A single completion sweep through the selected country, without an underline. */
+.jurisdiction-tabs button[aria-selected="true"]{border-bottom-color:transparent;color:var(--accent)}
+.jurisdiction-tab-label{display:inline-block}
+@supports ((background-clip:text) or (-webkit-background-clip:text)){
+ .jurisdiction-tabs button[aria-selected="true"] .jurisdiction-tab-label{background-image:linear-gradient(to right,var(--accent) 0%,var(--accent) 50%,var(--muted) 50%,var(--muted) 100%);background-size:200% 100%;background-position:0% 0%;background-clip:text;-webkit-background-clip:text;color:transparent;animation:jurisdiction-complete 380ms cubic-bezier(.2,.65,.3,1) both}
+}
+@keyframes jurisdiction-complete{from{background-position:100% 0%}to{background-position:0% 0%}}
+@media(forced-colors:active){.jurisdiction-tabs button[aria-selected="true"] .jurisdiction-tab-label{background:none;color:Highlight;animation:none}.jurisdiction-tabs button[aria-selected="true"]{outline:1px solid Highlight;outline-offset:-3px}}
+
+/* One reading timer for the section, rather than an underline per country. */
+.jurisdiction-tabs{border-bottom:0;padding-bottom:0}
+.jurisdiction-tabs button[aria-selected="true"] .jurisdiction-tab-label{animation:none;background:none;color:var(--accent)}
+.jurisdiction-cycle{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:8px;gap:0 16px}
+.jurisdiction-cycle>span{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.jurisdiction-cycle button{font:inherit;font-size:13px;color:var(--muted);background:none;border:0;min-width:44px;min-height:44px;padding:0;text-align:right;cursor:pointer}
+.jurisdiction-cycle button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.jurisdiction-cycle button:disabled{cursor:default}
+.jurisdiction-progress{width:100%;height:2px;background:#d6cabc;overflow:hidden}
+.jurisdiction-progress>span{display:block;width:100%;height:100%;background:var(--accent);transform:scaleX(0);transform-origin:left}
+@media(max-width:560px){.jurisdiction-cycle{margin-top:0}.jurisdiction-detail{min-height:292px}}
+@media(max-width:350px){.jurisdiction-detail{min-height:326px}}
+
+/* Progress belongs to the precise tab being explored. */
+.jurisdiction-progress{display:none}
+.jurisdiction-tabs button{position:relative}
+.jurisdiction-tab-progress{position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;opacity:0;pointer-events:none}
+.jurisdiction-tabs button.is-timing .jurisdiction-tab-progress{opacity:1}
+.jurisdiction-cycle{border-top:1px solid #d6cabc;margin-top:12px}
+
+/* Fast, local colour response; no timed rotation or playback chrome. */
+.jurisdiction-tabs{border-bottom:1px solid #d6cabc;padding-bottom:16px}
+.jurisdiction-tabs button{font-weight:400;transition:color 180ms ease}
+.jurisdiction-tabs button[aria-selected="true"]{font-weight:550}
+.jurisdiction-tabs button[aria-selected="true"] .jurisdiction-tab-label{color:var(--accent)}
+@supports ((background-clip:text) or (-webkit-background-clip:text)){
+ .jurisdiction-tabs button.colour-hover .jurisdiction-tab-label{background-image:linear-gradient(to right,var(--accent) 0%,var(--accent) 50%,var(--muted) 50%,var(--muted) 100%);background-size:200% 100%;background-position:0% 0%;background-clip:text;-webkit-background-clip:text;color:transparent;animation:jurisdiction-colour-sweep 320ms cubic-bezier(.25,.6,.3,1) both}
+}
+@keyframes jurisdiction-colour-sweep{from{background-position:100% 0%}to{background-position:0% 0%}}
+@media(forced-colors:active){.jurisdiction-tabs button.colour-hover .jurisdiction-tab-label{background:none;color:Highlight;animation:none}}
+@media(max-width:560px){.jurisdiction-tabs{padding-bottom:12px}.jurisdiction-detail{padding-top:18px;min-height:0}}
+
+/* A restrained wash follows the country label, not the full tab cell. */
+.jurisdiction-tab-label{position:relative;isolation:isolate}
+.jurisdiction-tab-label::before{content:"";position:absolute;inset:-6px -7px;z-index:-1;background:rgba(147,78,60,.09);transform:scaleX(0);transform-origin:left;transition:transform 240ms cubic-bezier(.25,.6,.3,1);pointer-events:none}
+.jurisdiction-tabs button.colour-hover .jurisdiction-tab-label{background:none;background-image:none;animation:none;color:var(--accent)}
+.jurisdiction-tabs button.colour-hover .jurisdiction-tab-label::before{transform:scaleX(1)}
+@media(forced-colors:active){.jurisdiction-tab-label::before{display:none}}
+
+/* Full hit-area fill, invisible until this specific country is hovered. */
+.jurisdiction-tab-label::before{display:none}
+.jurisdiction-tabs button{position:relative;isolation:isolate;border-bottom:0;padding:10px 12px;text-align:left}
+.jurisdiction-tabs button::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(147,78,60,.11);transform:scaleX(0);transform-origin:left;transition:transform 260ms cubic-bezier(.25,.6,.3,1);pointer-events:none}
+.jurisdiction-tabs button.colour-hover::before{transform:scaleX(1)}
+@media(max-width:560px){.jurisdiction-tabs button{padding:10px 0}}
+@media(forced-colors:active){.jurisdiction-tabs button::before{display:none}}
+
+/* Persist the same fill for the selected country on touch screens. */
+@media(hover:none), (pointer:coarse), (max-width:560px){
+ .jurisdiction-tabs button[aria-selected="true"]::before{transform:scaleX(1)}
+}
+
+/* Feather the highlight into the paper instead of drawing a filled rectangle. */
+.jurisdiction-tabs button::before{inset:5px 0;background:radial-gradient(ellipse at center,rgba(147,78,60,.10) 0%,rgba(147,78,60,.055) 42%,rgba(147,78,60,0) 74%);transition:transform 180ms ease-out,opacity 180ms ease-out;opacity:0}
+.jurisdiction-tabs button.colour-hover::before{opacity:1}
+@media(hover:none), (pointer:coarse), (max-width:560px){.jurisdiction-tabs button[aria-selected="true"]::before{opacity:1}}
+
+/* Keep the existing soft treatment strictly within the word width. */
+.jurisdiction-tabs button::before{display:none}
+.jurisdiction-tab-label::before{display:block;inset:-3px 0;background:radial-gradient(ellipse at center,rgba(147,78,60,.10) 0%,rgba(147,78,60,.055) 42%,rgba(147,78,60,0) 74%);transform:scaleX(0);transform-origin:left;transition:transform 180ms ease-out;opacity:1}
+.jurisdiction-tabs button.colour-hover .jurisdiction-tab-label::before{transform:scaleX(1)}
+@media(hover:none), (pointer:coarse), (max-width:560px){.jurisdiction-tabs button[aria-selected="true"] .jurisdiction-tab-label::before{transform:scaleX(1)}}
+@media(forced-colors:active){.jurisdiction-tab-label::before{display:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead"><div class="shell"><a class="wordmark" href="#main" aria-label="Circulox home">circulox</a><nav id="navigation" aria-label="Main navigation"><a href="#expertise">Expertise</a><a href="#jurisdictions">Jurisdictions</a><a href="insights/index.html">Insights</a><a href="#firm">The firm</a><a href="#consultation">Contact</a></nav><button class="menu" aria-controls="navigation" aria-expanded="false">Menu</button></div></header>
+<main id="main">
+<section class="opening"><div class="opening-copy"><div><div class="label entrance">Legal &amp; business advisory</div><h1 class="entrance">Legal advice for<br><em>international business.</em></h1><p class="entrance" data-pretext>Company formation, regulatory advice and ongoing legal support for startups, fintech, Web3 and established businesses.</p><div class="opening-actions entrance"><a class="button" href="#consultation">Discuss your matter</a><a class="link" href="#expertise">Explore our expertise</a></div></div></div><figure class="opening-art" aria-label="Editorial study of natural mineral strata"><img src="mineral-editorial.png" alt="" width="1024" height="1536" fetchpriority="high"><figcaption class="image-note">Perspective, in detail.</figcaption></figure></section>
+<section class="clients" aria-label="Selected clients, placeholder preview"><div class="shell"><div class="clients-head"><div><h2>Selected clients</h2><p>Logo placement preview. Approved names to follow.</p></div><button class="pause" aria-pressed="false">Pause</button></div><div class="logo-window"><div class="logo-track"><div class="logo-group"><span class="client-logo">CLIENT 01</span><span class="client-logo">CLIENT 02</span><span class="client-logo">CLIENT 03</span><span class="client-logo">CLIENT 04</span><span class="client-logo">CLIENT 05</span><span class="client-logo">CLIENT 06</span></div><div class="logo-group duplicate" aria-hidden="true"><span class="client-logo">CLIENT 01</span><span class="client-logo">CLIENT 02</span><span class="client-logo">CLIENT 03</span><span class="client-logo">CLIENT 04</span><span class="client-logo">CLIENT 05</span><span class="client-logo">CLIENT 06</span></div></div></div></div></section>
+<section class="about shell" id="firm"><div class="section-label">The firm</div><p class="about-statement reveal">We help businesses establish, operate and grow internationally, with legal and commercial advice considered together.</p><div class="about-bottom reveal"><div><p data-pretext>Company formation, regulatory advice, commercial documentation and operational matters, considered together in the context of your business.</p><div class="about-links"></div></div></div></section>
+<section class="expertise" id="expertise"><div class="shell"><div class="expertise-index reveal"><div class="expertise-heading"><h2>Our expertise.</h2><div><p>Advice across the legal, regulatory and operational matters of doing business internationally.</p></div></div><div class="practice-bento" aria-label="Areas of practice"><div class="practice-area"><h3>Formation &amp;<br>structuring</h3><p>Choose a jurisdiction, establish your company and prepare for investment.</p><div class="formation-markets"><span>Jurisdictions we advise on</span><p>United States · United Kingdom · UAE · Singapore<br>BVI · Cayman · Seychelles · India</p></div><ul><li><a class="practice-link" href="services/formation.html" aria-label="Company incorporation &amp; international structuring"><span class="practice-long">Company incorporation &amp; international structuring</span><span class="practice-short">Company formation</span></a></li><li><a class="practice-link" href="services/startup.html" aria-label="Startup &amp; investment advisory"><span class="practice-long">Startup &amp; investment advisory</span><span class="practice-short">Startup &amp; investment</span></a></li></ul></div><div class="practice-area"><h3>Regulation &amp; technology</h3><p>Navigate financial regulation and the policies behind your product.</p><ul><li><a class="practice-link" href="services/regulation.html" aria-label="Web3, crypto &amp; fintech regulation"><span class="practice-long">Web3, crypto &amp; fintech regulation</span><span class="practice-short">Crypto &amp; fintech</span></a></li><li><a class="practice-link" href="services/platform.html" aria-label="App Store &amp; technology compliance"><span class="practice-long">App Store &amp; technology compliance</span><span class="practice-short">App compliance</span></a></li></ul></div><div class="practice-area"><h3>Business operations</h3><p>Support for the contracts, compliance and infrastructure of your business.</p><ul><li><a class="practice-link" href="services/governance.html" aria-label="Corporate governance &amp; documentation"><span class="practice-long">Corporate governance &amp; documentation</span><span class="practice-short">Governance &amp; contracts</span></a></li><li><a class="practice-link" href="services/banking.html" aria-label="Banking, payments &amp; tax"><span class="practice-long">Banking, payments &amp; tax</span><span class="practice-short">Banking &amp; tax</span></a></li></ul></div><div class="practice-area"><h3>Protection &amp; disputes</h3><p>Protect your brand and respond to commercial or platform disputes.</p><ul><li><a class="practice-link" href="services/ip.html" aria-label="Intellectual property"><span class="practice-long">Intellectual property</span><span class="practice-short">Intellectual property</span></a></li><li><a class="practice-link" href="services/disputes.html" aria-label="Legal notices &amp; dispute resolution"><span class="practice-long">Legal notices &amp; dispute resolution</span><span class="practice-short">Dispute resolution</span></a></li></ul></div></div></div></div></section>
+<section class="international" id="jurisdictions"><div class="shell jurisdiction-explorer"><div class="jurisdiction-context"><div class="section-label">Jurisdiction advisory</div><h2>Where should your<br>business be based?</h2><p>We consider your activities, ownership, banking needs and operating markets together.</p><a class="link" href="insights/jurisdiction-discussion-checklist.html">What to consider before choosing</a></div><div class="jurisdiction-browser"><div class="jurisdiction-tabs" role="tablist" aria-label="Explore a jurisdiction"><button role="tab" id="jurisdiction-tab-united-states" aria-controls="jurisdiction-detail" aria-selected="true" tabindex="0" data-jurisdiction="united-states" aria-label="United States"><span class="jurisdiction-tab-label"><span class="jurisdiction-desktop-name">United States</span><span class="jurisdiction-mobile-name" aria-hidden="true">US</span></span></button><button role="tab" id="jurisdiction-tab-united-kingdom" aria-controls="jurisdiction-detail" aria-selected="false" tabindex="-1" data-jurisdiction="united-kingdom" aria-label="United Kingdom"><span class="jurisdiction-tab-label"><span class="jurisdiction-desktop-name">United Kingdom</span><span class="jurisdiction-mobile-name" aria-hidden="true">UK</span></span></button><button role="tab" id="jurisdiction-tab-uae" aria-controls="jurisdiction-detail" aria-selected="false" tabindex="-1" data-jurisdiction="uae" aria-label="United Arab Emirates"><span class="jurisdiction-tab-label">UAE</span></button><button role="tab" id="jurisdiction-tab-singapore" aria-controls="jurisdiction-detail" aria-selected="false" tabindex="-1" data-jurisdiction="singapore" aria-label="Singapore"><span class="jurisdiction-tab-label">Singapore</span></button><button role="tab" id="jurisdiction-tab-bvi" aria-controls="jurisdiction-detail" aria-selected="false" tabindex="-1" data-jurisdiction="bvi" aria-label="British Virgin Islands"><span class="jurisdiction-tab-label">BVI</span></button><button role="tab" id="jurisdiction-tab-cayman" aria-controls="jurisdiction-detail" aria-selected="false" tabindex="-1" data-jurisdiction="cayman" aria-label="Cayman Islands"><span class="jurisdiction-tab-label"><span class="jurisdiction-desktop-name">Cayman Islands</span><span class="jurisdiction-mobile-name" aria-hidden="true">Cayman</span></span></button><button role="tab" id="jurisdiction-tab-seychelles" aria-controls="jurisdiction-detail" aria-selected="false" tabindex="-1" data-jurisdiction="seychelles" aria-label="Seychelles"><span class="jurisdiction-tab-label">Seychelles</span></button><button role="tab" id="jurisdiction-tab-india" aria-controls="jurisdiction-detail" aria-selected="false" tabindex="-1" data-jurisdiction="india" aria-label="India"><span class="jurisdiction-tab-label">India</span></button></div><div class="jurisdiction-picker"><label for="jurisdiction-choice">Explore a jurisdiction</label><select id="jurisdiction-choice"><option value="united-states">United States</option><option value="united-kingdom">United Kingdom</option><option value="uae">United Arab Emirates</option><option value="singapore">Singapore</option><option value="bvi">British Virgin Islands</option><option value="cayman">Cayman Islands</option><option value="seychelles">Seychelles</option><option value="india">India</option></select></div><div class="jurisdiction-detail" id="jurisdiction-detail" role="tabpanel" aria-labelledby="jurisdiction-tab-united-states" tabindex="0"><div class="jurisdiction-detail-label">Formation &amp; international structuring</div><h3 id="jurisdiction-title">United States</h3><p id="jurisdiction-description">Discuss a US entity in the context of your founders, customers, investors and international operations.</p><div class="jurisdiction-topics"><span>Topics to discuss</span><ul id="jurisdiction-focus"><li>State and entity choice</li><li>Ownership and investment</li><li>Banking and ongoing compliance</li></ul></div><a class="link" id="jurisdiction-page" href="jurisdictions/united-states.html">Explore United States advisory</a></div></div></div></section>
+<section class="insights shell" id="insights"><div class="insights-heading"><div><div class="section-label">Insights &amp; guides</div><h2>Perspectives.</h2></div><a class="link" href="insights/index.html">Explore all insights</a></div><div class="journal-home"><a class="journal-home-entry" href="insights/jurisdiction-discussion-checklist.html"><div class="journal-home-meta">Corporate structuring <span>Draft preview</span></div><h3>Choosing a jurisdiction: start with the business</h3><p>The information to organise before discussing where to establish your company.</p></a><a class="journal-home-entry" href="insights/app-review-preparation.html"><div class="journal-home-meta">Technology compliance <span>Draft preview</span></div><h3>Preparing for a financial app review</h3><p>A practical way to organise product details and review correspondence before seeking advice.</p></a><a class="journal-home-entry" href="insights/fundraising-document-preparation.html"><div class="journal-home-meta">Startup &amp; investment <span>Draft preview</span></div><h3>Before a funding round: organise the legal picture</h3><p>A focused starting brief for conversations about investment, equity and company documents.</p></a></div></section><section class="social-notes" id="from-x"><div class="shell"><div class="social-header"><div><div class="section-label">From X</div><h2>In conversation.</h2></div><a class="link" href="https://x.com/iptishax" target="_blank" rel="noopener noreferrer">View @iptishax on X</a></div><div class="x-feed" aria-label="Selected posts from X"><div class="x-post" data-post="2095450271333970003"><blockquote class="twitter-tweet" data-dnt="true" data-conversation="none" data-cards="hidden"><a href="https://x.com/iptishax/status/2095450271333970003">Read selected post 1 on X</a></blockquote><p class="x-post-status">Loading post…</p></div><div class="x-post" data-post="2082015141030498411"><blockquote class="twitter-tweet" data-dnt="true" data-conversation="none" data-cards="hidden"><a href="https://x.com/iptishax/status/2082015141030498411">Read selected post 2 on X</a></blockquote><p class="x-post-status">Loading post…</p></div><div class="x-post" data-post="2069020704180441311"><blockquote class="twitter-tweet" data-dnt="true" data-conversation="none" data-cards="hidden"><a href="https://x.com/iptishax/status/2069020704180441311">Read selected post 3 on X</a></blockquote><p class="x-post-status">Loading post…</p></div></div><div class="x-pagination"><span id="post-counter" aria-live="polite">1 / 3</span><div><button id="post-previous" type="button" disabled>Previous</button><button id="post-next" type="button">Next</button></div></div></div></section>
+<section class="conversation" id="consultation"><div class="shell conversation-grid reveal"><h2>Let’s start<br><em>with your business.</em></h2><div><p>Tell us about your business, the jurisdictions involved and where you need legal support. Start a conversation with Circulox on Telegram.</p><a class="button" href="https://t.me/iptisha" target="_blank" rel="noopener noreferrer">Message on Telegram</a></div></div></section>
+</main>
+<footer class="footer shell"><div class="footer-top"><a href="#main" class="wordmark">circulox</a><nav aria-label="Footer navigation"><a href="#firm">The firm</a><a href="#expertise">Expertise</a><a href="insights/index.html">Insights</a><a href="#consultation">Contact</a></nav></div><div class="footer-bottom"><p>Design study. Client names are placeholders; guide titles are illustrative. Service pages are draft overviews; team profiles are not supplied.</p><details class="motion-settings"><summary>Preview controls</summary><div class="motion-controls"><button id="replay">Replay introduction</button><label><input type="checkbox" id="reduced">Reduced motion</label></div></details></div></footer>
+<dialog aria-labelledby="dialog-title"><button class="close">Close</button><div class="section-label">Circulox</div><h2 id="dialog-title"></h2><p id="dialog-body"></p><a class="button" id="dialog-booking" href="https://t.me/iptisha" target="_blank" rel="noopener noreferrer">Message on Telegram</a><p class="preview-note">Design preview. Contact opens Telegram; no information is submitted by this page.</p></dialog>
+<script>
+const root=document.documentElement,dialog=document.querySelector('dialog'),dialogTitle=document.querySelector('#dialog-title'),dialogBody=document.querySelector('#dialog-body'),dialogBooking=document.querySelector('#dialog-booking');
+function show(title,copy,canBook=true){dialogTitle.textContent=title;dialogBody.textContent=copy;dialogBooking.hidden=!canBook;if(!dialog.open)dialog.showModal()}
+document.querySelector('.close').onclick=()=>dialog.close();dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()});
+const info={about:['About Circulox','Circulox is an international legal and business advisory firm working with startups, fintech companies, Web3 businesses and established enterprises on legal, regulatory, corporate and operational matters.'],team:['The Circulox team','The live website will present verified adviser profiles, qualifications and relevant experience. Team content has not been supplied for this design study.'],contact:['Contact Circulox','The live website will offer consultation booking and an enquiry form. Neither is connected in this design study.']};
+document.querySelectorAll('[data-info]').forEach(el=>el.onclick=e=>{e.preventDefault();show(...info[el.dataset.info])});document.querySelectorAll('.countries button').forEach(b=>b.onclick=()=>show(b.textContent+' advisory','Discuss corporate structuring and relevant legal requirements in '+b.textContent+'. Scope and delivery arrangements depend on your business.'));document.querySelectorAll('[data-guide]').forEach(a=>a.onclick=e=>{e.preventDefault();show(a.querySelector('h3').textContent,'This is an illustrative guide placement. Reviewed content, authorship and source material will be supplied for the live Insights section.',false)});
+
+const menu=document.querySelector('.menu'),nav=document.querySelector('#navigation');function closeMenu(){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='Menu'}menu.onclick=()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'Close menu':'Menu'};nav.querySelectorAll('a').forEach(a=>a.onclick=closeMenu);document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
+const clients=document.querySelector('.clients'),pause=document.querySelector('.pause');pause.onclick=()=>{const stopped=clients.classList.toggle('paused');pause.setAttribute('aria-pressed',String(stopped));pause.textContent=stopped?'Resume':'Pause'};
+const media=matchMedia('(prefers-reduced-motion: reduce)'),control=document.querySelector('#reduced');function setMotion(v){root.classList.toggle('motion-off',v);control.checked=v}setMotion(media.matches);media.addEventListener('change',()=>setMotion(media.matches));control.onchange=()=>setMotion(control.checked);
+const observer=new IntersectionObserver(items=>items.forEach(item=>{if(item.isIntersecting){item.target.classList.add('visible');observer.unobserve(item.target)}}),{threshold:.1});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));document.querySelector('#replay').onclick=()=>{window.scrollTo({top:0,behavior:'auto'});document.querySelectorAll('.entrance').forEach(el=>{el.style.animation='none';void el.offsetWidth;el.style.animation='';})};
+</script>
+<script type="module">
+import{prepare,layout}from'./pretext-inline.js';await document.fonts.ready;const prepared=new Map();for(const el of document.querySelectorAll('[data-pretext]'))prepared.set(el,prepare(el.textContent,getComputedStyle(el).font));function relayout(){for(const[el,handle]of prepared){const result=layout(handle,el.clientWidth,parseFloat(getComputedStyle(el).lineHeight));el.style.minHeight=result.height+'px'}}new ResizeObserver(relayout).observe(document.body);relayout();document.documentElement.dataset.pretext='ready';
+</script>
+<script src="social-feed.js?v=18" defer></script><script src="jurisdiction-explorer.js?v=35" defer></script></body>
+</html>

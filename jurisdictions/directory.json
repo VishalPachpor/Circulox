@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "united-states",
+    "name": "United States",
+    "region": "North America"
+  },
+  {
+    "slug": "united-kingdom",
+    "name": "United Kingdom",
+    "region": "Europe"
+  },
+  {
+    "slug": "uae",
+    "name": "United Arab Emirates",
+    "region": "Middle East"
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "region": "Asia"
+  },
+  {
+    "slug": "bvi",
+    "name": "British Virgin Islands",
+    "region": "Caribbean"
+  },
+  {
+    "slug": "cayman",
+    "name": "Cayman Islands",
+    "region": "Caribbean"
+  },
+  {
+    "slug": "seychelles",
+    "name": "Seychelles",
+    "region": "Indian Ocean"
+  },
+  {
+    "slug": "india",
+    "name": "India",
+    "region": "Asia"
+  }
+]
