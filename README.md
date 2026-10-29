@@ -25,3 +25,11 @@ Open http://localhost:8765/ in your browser. No build step or package installati
 This is a static design prototype. Articles remain draft/noindex until reviewed and approved. A CMS and publishing backend are not connected. Client showcase placeholders require approved client identities before publication. Consultation links currently use the supplied Telegram destination. Fonts and X embeds require external network access.
 
 See `INSIGHTS-PUBLISHING.md` for article publishing requirements.
+
+## Client review deployment
+
+Preview: https://circulox-preview.vercel.app
+
+Vercel project: `circulox-preview`. The project is connected to this GitHub repository. `vercel.json` serves the static prototype and sets `X-Robots-Tag: noindex, nofollow, noarchive` for review. No custom domain is attached.
+
+After client design approval, the production website can be built with Next.js.
