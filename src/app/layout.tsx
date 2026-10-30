@@ -1,15 +1,31 @@
-import { DM_Sans, Newsreader } from "next/font/google";
+import localFont from "next/font/local";
 import type { Metadata } from "next";
 import "@/styles/base.css";
 import { siteUrl, indexable } from "@/lib/site";
-const sans = DM_Sans({
-  subsets: ["latin"],
+const sans = localFont({
+  src: [
+    {
+      path: "./fonts/dm-sans-latin.woff2",
+      weight: "100 1000",
+      style: "normal",
+    },
+  ],
   variable: "--font-dm-sans",
   display: "swap",
 });
-const serif = Newsreader({
-  subsets: ["latin"],
-  style: ["normal", "italic"],
+const serif = localFont({
+  src: [
+    {
+      path: "./fonts/newsreader-latin.woff2",
+      weight: "200 800",
+      style: "normal",
+    },
+    {
+      path: "./fonts/newsreader-latin-italic.woff2",
+      weight: "200 800",
+      style: "italic",
+    },
+  ],
   variable: "--font-newsreader",
   display: "swap",
 });
