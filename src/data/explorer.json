@@ -1,0 +1,98 @@
+[
+  {
+    "key": "united-states",
+    "label": "United States",
+    "name": "United States",
+    "intro": "Discuss a US entity in the context of your founders, customers, investors and international operations.",
+    "focus": [
+      "State and entity choice",
+      "Ownership and investment",
+      "Banking and ongoing compliance"
+    ],
+    "mobileIntro": "Formation and ownership for a US company with international operations."
+  },
+  {
+    "key": "united-kingdom",
+    "label": "United Kingdom",
+    "name": "United Kingdom",
+    "intro": "Consider a UK company alongside your ownership arrangements, operating markets and wider business structure.",
+    "focus": [
+      "Formation and ownership",
+      "UK and international operations",
+      "Governance and agreements"
+    ],
+    "mobileIntro": "Formation, ownership and governance for a UK company."
+  },
+  {
+    "key": "uae",
+    "label": "UAE",
+    "name": "United Arab Emirates",
+    "intro": "Discuss your proposed activities and operating location before defining the company and ownership structure.",
+    "focus": [
+      "Location and business activities",
+      "Company and ownership structure",
+      "Banking and payment needs"
+    ],
+    "mobileIntro": "Company structure, activities and operating plans in the UAE."
+  },
+  {
+    "key": "singapore",
+    "label": "Singapore",
+    "name": "Singapore",
+    "intro": "Consider a Singapore company in the context of regional operations, ownership and international business relationships.",
+    "focus": [
+      "Operating footprint",
+      "Company and group structure",
+      "Banking and compliance needs"
+    ],
+    "mobileIntro": "Company and group structures for Singapore-based operations."
+  },
+  {
+    "key": "bvi",
+    "label": "BVI",
+    "name": "British Virgin Islands",
+    "intro": "Discuss holding companies, SPVs and ownership arrangements as part of your wider international structure.",
+    "focus": [
+      "Holding companies and SPVs",
+      "Ownership and investment",
+      "Corporate governance"
+    ],
+    "mobileIntro": "Holding companies, SPVs and international ownership structures."
+  },
+  {
+    "key": "cayman",
+    "label": "Cayman Islands",
+    "name": "Cayman Islands",
+    "intro": "Consider a Cayman structure alongside the purpose of the vehicle, its stakeholders and the wider group.",
+    "focus": [
+      "Holding and investment structures",
+      "SPVs and group relationships",
+      "Governance and documentation"
+    ],
+    "mobileIntro": "Holding and investment structures within your wider group."
+  },
+  {
+    "key": "seychelles",
+    "label": "Seychelles",
+    "name": "Seychelles",
+    "intro": "Start with the purpose of the company, proposed activities and the role it will play within the business.",
+    "focus": [
+      "Company purpose and activities",
+      "Ownership and group structure",
+      "Corporate records and compliance"
+    ],
+    "mobileIntro": "Company formation, ownership and governance in context."
+  },
+  {
+    "key": "india",
+    "label": "India",
+    "name": "India",
+    "intro": "Discuss an Indian company or existing business in the context of ownership, domestic operations and cross-border relationships.",
+    "focus": [
+      "Domestic and cross-border operations",
+      "Company and equity structure",
+      "Contracts and governance"
+    ],
+    "mobileIntro": "Formation and ownership for Indian and cross-border operations."
+  }
+]

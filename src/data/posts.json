@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "jurisdiction-discussion-checklist",
+    "title": "Choosing a jurisdiction: start with the business",
+    "category": "Corporate structuring",
+    "tags": ["Company formation", "Jurisdictions"],
+    "excerpt": "The information to organise before discussing where to establish your company.",
+    "status": "draft",
+    "readTime": "1 min read",
+    "service": "formation",
+    "sections": [
+      [
+        "Describe the activity before choosing the location",
+        "Start with what the business will do, who its customers will be and where it expects to operate. A jurisdiction discussion is more useful when it begins with an operating picture rather than a list of countries."
+      ],
+      [
+        "Make ownership and decision-making visible",
+        "Prepare an outline of the founders, shareholders and any existing companies in the group. Include where the people making business decisions are based. This helps frame the questions for your adviser."
+      ],
+      [
+        "Bring banking and investment plans into the discussion",
+        "Describe the currencies, payment flows and banking arrangements the business expects to need. If fundraising is planned, include the proposed timing, investor requirements and any existing documents."
+      ],
+      [
+        "Prepare a short brief",
+        "A useful first brief includes the proposed activities, operating markets, ownership outline and your main questions. The appropriate structure and engagement scope can then be discussed around those facts."
+      ]
+    ],
+    "author": null,
+    "publishedAt": null
+  },
+  {
+    "slug": "app-review-preparation",
+    "title": "Preparing for a financial app review",
+    "category": "Technology compliance",
+    "tags": ["App Store", "Fintech"],
+    "excerpt": "A practical way to organise product details and review correspondence before seeking advice.",
+    "status": "draft",
+    "readTime": "1 min read",
+    "service": "platform",
+    "sections": [
+      [
+        "Keep the original correspondence",
+        "Retain the complete rejection notice, review history and any follow-up correspondence. Note the app version and features involved so the discussion can address the issue actually raised."
+      ],
+      [
+        "Explain the user journey",
+        "Outline what a user can do in the app, the countries it serves and how payments or assets move through the product. Screenshots and a short journey diagram can make the explanation easier to follow."
+      ],
+      [
+        "Connect the app to the business",
+        "Have the company details and relevant product documents available. Explain who operates the service and which agreements or legal documents users see."
+      ],
+      [
+        "Separate the questions",
+        "Identify the platform-policy question, the product-design question and any legal or regulatory questions you want to discuss. This is a preparation checklist, not a prediction of a review outcome."
+      ]
+    ],
+    "author": null,
+    "publishedAt": null
+  },
+  {
+    "slug": "fundraising-document-preparation",
+    "title": "Before a funding round: organise the legal picture",
+    "category": "Startup & investment",
+    "tags": ["Fundraising", "Governance"],
+    "excerpt": "A focused starting brief for conversations about investment, equity and company documents.",
+    "status": "draft",
+    "readTime": "1 min read",
+    "service": "startup",
+    "sections": [
+      [
+        "Start with the current ownership",
+        "Gather the current cap table and the company documents that describe existing ownership arrangements. Include any prior investment agreements that may be relevant to a new round."
+      ],
+      [
+        "Describe the proposed round",
+        "Set out the intended investment, proposed instrument and terms already under discussion. Mark which points are agreed, which are proposals and which remain open."
+      ],
+      [
+        "Collect the documents already in circulation",
+        "Keep one organised set of drafts, correspondence and existing agreements. A clear version history helps advisers understand the current position without relying on conflicting copies."
+      ],
+      [
+        "Frame the next conversation",
+        "Explain the commercial objective, the decision you need to make and any stated deadlines. This helps define the questions for fundraising documentation, equity structuring and ongoing legal support."
+      ]
+    ],
+    "author": null,
+    "publishedAt": null
+  }
+]

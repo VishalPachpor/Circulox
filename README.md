@@ -1,35 +1,46 @@
 # Circulox
 
-Premium international legal and business advisory website prototype.
+Next.js App Router website with an embedded Sanity publishing workspace. The original static approval prototype remains on `main`; this migration is developed on `codex/nextjs-cms`.
 
 ## Run locally
 
+Requires Node.js 22.12+.
+
 ```sh
-python3 -m http.server 8765
+npm ci
+cp .env.example .env.local
+npm run dev
 ```
 
-Open http://localhost:8765/ in your browser. No build step or package installation is required.
+Visit http://localhost:3000. Without a configured Sanity project, public pages render, Insights shows a truthful empty state, and `/studio` explains the missing connection. No sample guides are treated as published articles.
+
+```sh
+npm test
+npm run typecheck
+npm run build
+npm start
+```
+
+## Content management
+
+Open `/studio` or `/admin`. Sanity handles invited-member authentication, article/author editing, drafts, images and publishing. The public frontend renders published content server-side; new changes appear within around a minute. Private draft preview uses the official Sanity handshake.
+
+See [CMS-HANDOFF.md](CMS-HANDOFF.md) for owner instructions, project connection and the required real-account verification.
 
 ## Structure
 
-- `index.html`: homepage (also available as `finalized.html` for existing preview links).
-- `services/`: eight service pages and shared service styles/content.
-- `jurisdictions/`: eight jurisdiction pages and explorer data.
-- `insights/`: article index, filters and draft articles.
-- `inner-ui.css` and `site-ui.js`: responsive inner-page styling and interactions.
-- `jurisdiction-explorer.js`: country selection.
-- `social-feed.js`: native X post embeds.
+- `src/app/(site)`: homepage, service and jurisdiction routes, Insights, firm and contact.
+- `src/app/(studio)`: isolated CMS route.
+- `src/components`: reusable layouts and React interactions.
+- `src/sanity`: schema, environment configuration and server client.
+- `src/lib/posts.ts`: published/draft content reads.
+- `src/data`: existing service and jurisdiction content; sample articles remain unpublished.
+- `public`: optimized source images.
+- `src/styles`: scoped original design styles to preserve desktop and compact mobile treatments.
+- `scripts/scope-styles.mjs`: regenerates scoped CSS from the design source styles.
 
-## Publishing status
+Existing `.html` links redirect to clean Next.js routes. Static HTML files at the repository root are retained as the original design reference and are not used as the Next.js implementation.
 
-This is a static design prototype. Articles remain draft/noindex until reviewed and approved. A CMS and publishing backend are not connected. Client showcase placeholders require approved client identities before publication. Consultation links currently use the supplied Telegram destination. Fonts and X embeds require external network access.
+## Deployment
 
-See `INSIGHTS-PUBLISHING.md` for article publishing requirements.
-
-## Client review deployment
-
-Preview: https://circulox-preview.vercel.app
-
-Vercel project: `circulox-preview`. The project is connected to this GitHub repository. `vercel.json` serves the static prototype and sets `X-Robots-Tag: noindex, nofollow, noarchive` for review. No custom domain is attached.
-
-After client design approval, the production website can be built with Next.js.
+Vercel configuration now targets Next.js on this branch. The approval site at https://circulox-preview.vercel.app remains on `main` until the migration is explicitly landed. Keep preview deployments noindex. Set the CMS variables and `NEXT_PUBLIC_SITE_URL` before creating the production deployment. No CMS secrets belong in Git.
