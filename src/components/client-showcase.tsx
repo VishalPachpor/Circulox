@@ -22,7 +22,11 @@ export function ClientShowcase() {
           </button>
         </div>
         <div className={styles.window}>
-          <div className={styles.track} data-paused={paused}>
+          <div
+            className={styles.track}
+            data-paused={paused}
+            style={{ animationDuration: `${(clients.length * 42) / 9}s` }}
+          >
             <ul className={styles.group} aria-label="Circulox clients">
               {clients.map((client) => (
                 <li key={client.url}>
