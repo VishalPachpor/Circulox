@@ -49,6 +49,40 @@
   font-weight: 400;
 }
 
+/* One shared header alignment, independent of heading metrics and button defaults. */
+.home-page .masthead .shell,
+.inner-page .top {
+  align-items: center;
+}
+.home-page .masthead .wordmark,
+.inner-page .top .wordmark {
+  min-height: 44px;
+  line-height: 1;
+  font-style: normal;
+  flex-shrink: 0;
+}
+.home-page .masthead nav,
+.inner-page .top .desktop-navigation {
+  align-items: center;
+}
+.home-page .masthead nav a,
+.inner-page .top nav a {
+  font-size: 14px;
+  line-height: 1;
+  align-items: center;
+}
+.home-page .menu,
+.inner-page .site-menu {
+  box-sizing: border-box;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 10px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
 @media (max-width: 1024px) {
   :is(.home-page, .inner-page) { --type-section: 34px; }
 }

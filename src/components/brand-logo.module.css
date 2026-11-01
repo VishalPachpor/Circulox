@@ -11,6 +11,8 @@
   white-space: nowrap;
 }
 .lockup img { display: block; flex-shrink: 0; }
+/* Newsreader's ink sits above its line-box centre; align the lettering optically. */
+.lockup > span { display: block; transform: translateY(.09em); }
 @media (max-width: 560px) {
   .lockup { font-size: 32px; gap: 8px; }
   .lockup img { width: 34px; height: 34px; }
