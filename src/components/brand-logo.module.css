@@ -2,16 +2,16 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-dm-sans), sans-serif;
-  font-size: 30px;
-  font-weight: 600;
+  font-family: var(--font-newsreader), serif;
+  font-size: 38px;
+  font-weight: 400;
   font-style: normal;
   line-height: 1;
-  letter-spacing: -.045em;
+  letter-spacing: -.035em;
   white-space: nowrap;
 }
 .lockup img { display: block; flex-shrink: 0; }
 @media (max-width: 560px) {
-  .lockup { font-size: 26px; gap: 8px; }
+  .lockup { font-size: 32px; gap: 8px; }
   .lockup img { width: 34px; height: 34px; }
 }
