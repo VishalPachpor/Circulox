@@ -1,6 +1,6 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { telegram } from "@/lib/site";
+import { bookingUrl, contactEmail } from "@/lib/site";
 export const metadata = {
   title: "Contact",
   description:
@@ -22,12 +22,15 @@ export default function Contact() {
             </p>
             <a
               className="button"
-              href={telegram}
+              href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Message on Telegram
+              Book a consultation
             </a>
+            <p>
+              Prefer email? <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
+            </p>
           </div>
         </section>
         <section className="prepare">

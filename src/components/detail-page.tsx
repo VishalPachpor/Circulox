@@ -4,7 +4,7 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import { ResponsiveDetails } from "./details";
 import services from "@/data/services.json";
-import { telegram } from "@/lib/site";
+import { bookingUrl } from "@/lib/site";
 import mineral from "../../public/mineral-editorial.png";
 export type DetailContent = {
   title: string;
@@ -133,16 +133,15 @@ export function DetailPage({
               <p>
                 Tell us about your{" "}
                 {jurisdiction ? "business plans" : "legal needs"} and the
-                jurisdictions involved. Start a conversation with Circulox on
-                Telegram.
+                jurisdictions involved. Choose a time to speak with Circulox.
               </p>
               <a
                 className="button"
-                href={telegram}
+                href={bookingUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Message on Telegram
+                Book a consultation
               </a>
             </div>
           </div>

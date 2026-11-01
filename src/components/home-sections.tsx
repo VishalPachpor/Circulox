@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { bookingUrl } from "@/lib/site";
 import Link from "next/link";
 import mineral from "../../public/mineral-editorial.png";
 export function Opening() {
@@ -259,16 +260,16 @@ export function Conversation() {
         <div>
           <p>
             {
-              "Tell us about your business, the jurisdictions involved and where you need legal support. Start a conversation with Circulox on Telegram."
+              "Tell us about your business, the jurisdictions involved and where you need legal support. Choose a time to speak with Circulox."
             }
           </p>
           <a
             className="button"
-            href="https://t.me/iptisha"
+            href={bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
-            {"Message on Telegram"}
+            {"Book a consultation"}
           </a>
         </div>
       </div>

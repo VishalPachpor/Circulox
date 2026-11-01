@@ -19,7 +19,7 @@ Connected on 2 November 2026 to the user-approved existing project `jnpakmgy` (d
 
 - Editor: https://circulox-preview.vercel.app/studio
 - Project management: https://www.sanity.io/organizations/oP3n1gBns/project/jnpakmgy
-- Signed-in administrator: Vishal Patil. The owner email is not yet available; no separate owner invitation has been sent. When provided, invite their own account through Members with an appropriate publishing role. Never share logins.
+- Signed-in administrator: Vishal Patil. An Administrator invitation was sent to `iptisha@circulox.org` on 2 November 2026 after explicit user approval. Sanity lists it as pending acceptance. No Editor role was available in this project. The owner should accept the email invitation and then sign in at `/studio`. Never share logins.
 - Vercel production and ignored local environment contain the project ID, dataset and server-only Viewer token. No token is stored in Git or public environment variables.
 - Exact production origin has credentialed CORS enabled. Existing localhost:3000 and localhost:3333 origins were retained. No wildcard origin was added.
 - Studio is registered in the Sanity dashboard. Rebuild deployments after changing public configuration variables.
