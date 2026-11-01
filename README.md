@@ -43,4 +43,4 @@ Existing `.html` links redirect to clean Next.js routes. Static HTML files at th
 
 ## Deployment
 
-The Next.js site is published at https://circulox-preview.vercel.app through a direct Vercel CLI deployment from `codex/nextjs-cms`. The `main` branch still contains the original static prototype; use the migration branch for subsequent Next.js deployments until it is merged. Preview deployments remain noindex. `NEXT_PUBLIC_SITE_URL` is configured; Sanity project variables and owner access still need connecting before blog publishing is available. No CMS secrets belong in Git.
+The Next.js site is published at https://circulox-preview.vercel.app through a direct Vercel CLI deployment from `codex/nextjs-cms`. The `main` branch still contains the original static prototype; use the migration branch for subsequent Next.js deployments until it is merged. Preview deployments remain noindex. `NEXT_PUBLIC_SITE_URL` and the Sanity production connection are configured. A separate owner invitation awaits their email; see CMS-HANDOFF.md. No CMS secrets belong in Git.

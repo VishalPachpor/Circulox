@@ -9,20 +9,22 @@
 5. Upload an optional cover or inline images, adding image descriptions and credits.
 6. Use **Presentation** to preview the draft on the website. The preview is private and marked as a draft.
 7. Review the publication date and SEO fields, then **Publish**. The article appears on Insights and, when recent, the homepage within about a minute.
-8. Reopen an article to edit it; publish changes when ready. Use Sanity **Unpublish** to remove it from the public website. Keep the web address unchanged after publishing.
+8. Reopen an article to edit it; publish changes when ready. Select the **Published** version above the document, then **Unpublish → Unpublish now** to remove it from the public website. Keep the web address unchanged after publishing.
 
 Only invited Sanity members can save or publish. Website visitors have no write endpoint. Author profiles are content attribution; editor membership is managed separately in Sanity.
 
-## Connection still required
+## Connected workspace
 
-No Sanity project/account was supplied at implementation time. `/studio` truthfully shows a setup message until configured. The save/publish lifecycle cannot be verified before a real project is connected.
+Connected on 2 November 2026 to the user-approved existing project `jnpakmgy` (dashboard name: `test-app`) and public `production` dataset.
 
-- Create/connect an owner-controlled Sanity project and a `production` dataset.
-- Add localhost and the exact website deployment origin as CORS origins with credentials enabled. Avoid wildcard credential origins.
-- Set `NEXT_PUBLIC_SANITY_PROJECT_ID`, `NEXT_PUBLIC_SANITY_DATASET`, and a **Viewer** token as server-only `SANITY_API_READ_TOKEN` in local/Vercel settings. Never use a public-prefixed token variable.
-- Invite the owner and relevant team members through Sanity project management with the appropriate editor roles. Do not share a single login.
-- Rebuild the Next.js deployment after setting public configuration variables.
-- Verify owner login → create → draft hidden publicly → authenticated preview → publish → edit → unpublish using a real test article, then remove the test article.
+- Editor: https://circulox-preview.vercel.app/studio
+- Project management: https://www.sanity.io/organizations/oP3n1gBns/project/jnpakmgy
+- Signed-in administrator: Vishal Patil. The owner email is not yet available; no separate owner invitation has been sent. When provided, invite their own account through Members with an appropriate publishing role. Never share logins.
+- Vercel production and ignored local environment contain the project ID, dataset and server-only Viewer token. No token is stored in Git or public environment variables.
+- Exact production origin has credentialed CORS enabled. Existing localhost:3000 and localhost:3333 origins were retained. No wildcard origin was added.
+- Studio is registered in the Sanity dashboard. Rebuild deployments after changing public configuration variables.
+
+Publishing lifecycle verification is recorded in `.gstack/qa-reports/qa-report-circulox-preview-vercel-app-2026-11-02.md`. Verification completed with a temporary article and author; both were removed. Sign-in, draft save and privacy, authenticated preview, publish, public edit propagation and unpublish were exercised. Public reads use timed revalidation, so publication changes can take roughly one to two minutes and an additional request to appear.
 
 ## Publication rules
 
