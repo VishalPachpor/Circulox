@@ -13,7 +13,7 @@
 .home-page :is(.opening-copy, .about-bottom, .expertise-heading, .practice-area,
   .jurisdiction-context, .jurisdiction-detail, .insights, .social-header,
   .social-brief, .conversation) p,
-.inner-page :is(.hero-copy, .scope, .prepare, .faq, .contact, .empty-insights, .prose) p {
+.inner-page :is(.hero-copy, .scope, .prepare, .faq, .contact, .journal-empty, .prose) p {
   font-family: var(--font-dm-sans), sans-serif;
   font-size: var(--type-body);
   font-weight: 400;
@@ -21,7 +21,7 @@
 }
 
 .home-page :is(.expertise-heading, .jurisdiction-context, .insights, .social-header) h2,
-.inner-page :is(.scope, .prepare, .faq, .contact, .empty-insights) h2 {
+.inner-page :is(.scope, .prepare, .faq, .contact, .journal-empty) h2 {
   font-family: var(--font-newsreader), serif;
   font-size: var(--type-section);
   font-weight: 400;
