@@ -1,43 +1,56 @@
-/* Open editorial bento: wide / paired / wide. Desktop composition is unchanged. */
+/* Reflow the desktop bento: featured formation, wide regulation, two smaller practices. */
+.home-page .practice-area .practice-link,
+.home-page .practice-area .practice-link:hover,
+.home-page .practice-area .practice-link:focus-visible {
+  text-decoration: none;
+}
+.home-page .practice-area .practice-link:hover {
+  color: var(--practice-action);
+}
 @media (max-width: 800px) {
   .home-page .practice-bento {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 20px 24px;
-    align-items: start;
+    gap: 10px;
+    align-items: stretch;
   }
   .home-page .practice-area:nth-child(n) {
     grid-column: auto;
     grid-row: auto;
     min-height: 0;
-    padding: 18px 0 0;
-    background: transparent;
+    padding: 18px;
     border: 0;
-    border-top: 1px solid rgba(238, 232, 222, .22);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background: #38312c;
   }
-  .home-page .practice-area:nth-child(1),
-  .home-page .practice-area:nth-child(4) {
+  .home-page .practice-area:nth-child(1) {
     grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 24px;
-    align-items: start;
+    background: #44382f;
   }
+  .home-page .practice-area:nth-child(2) {
+    grid-column: 1 / -1;
+    background: #37312c;
+  }
+  .home-page .practice-area:nth-child(4) { background: #3b332d; }
   .home-page .practice-area h3,
   .home-page .practice-area:first-child h3 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.15;
     letter-spacing: -.015em;
-    margin: 0 0 12px;
+    margin: 0 0 10px;
     max-width: none;
     text-wrap: balance;
   }
+  .home-page .practice-area:first-child h3 { font-size: 26px; }
   .home-page .practice-area > p,
-  .home-page .practice-area:first-child > p,
-  .home-page .formation-markets {
-    display: none;
+  .home-page .formation-markets { display: none; }
+  .home-page .practice-area:first-child > p {
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 12px;
+    max-width: 38ch;
   }
   .home-page .practice-area ul,
   .home-page .practice-area:first-child ul {
@@ -47,6 +60,10 @@
     gap: 0;
     list-style: none;
   }
+  .home-page .practice-area:nth-child(-n+2) ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 16px;
+  }
   .home-page .practice-area .practice-link {
     display: flex;
     align-items: center;
@@ -54,24 +71,25 @@
     padding: 6px 0;
     font-size: 16px;
     line-height: 1.4;
-    text-decoration: underline;
-    text-decoration-color: rgba(238, 232, 222, .3);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
+    text-decoration: none;
   }
-  .home-page .practice-area .practice-link:hover,
+  .home-page .practice-area .practice-link:hover {
+    text-decoration: none;
+    color: var(--practice-action);
+  }
   .home-page .practice-area .practice-link:focus-visible {
-    text-decoration-color: currentColor;
+    text-decoration: none;
+    outline: 1px solid currentColor;
+    outline-offset: 3px;
   }
+  .home-page .practice-area .practice-link:active { color: var(--practice-action); }
   .home-page .practice-long { display: none; }
   .home-page .practice-short { display: inline; }
-  .home-page .expertise-heading { margin-bottom: 24px; }
+  .home-page .expertise-heading { margin-bottom: 20px; }
 }
 @media (max-width: 560px) {
-  .home-page .practice-bento { gap: 18px 24px; }
-  .home-page .practice-area h3,
-  .home-page .practice-area:first-child h3 {
-    font-size: 21px;
-    margin-bottom: 10px;
-  }
+  .home-page .practice-area:nth-child(n) { padding: 16px; }
+  .home-page .practice-area h3 { font-size: 21px; }
+  .home-page .practice-area:first-child h3 { font-size: 24px; }
+  .home-page .practice-area:nth-child(-n+2) ul { column-gap: 12px; }
 }
