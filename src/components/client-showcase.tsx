@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import clients from "@/data/clients.json";
 import styles from "./client-showcase.module.css";
 
@@ -31,7 +32,14 @@ export function ClientShowcase() {
               {clients.map((client) => (
                 <li key={client.url}>
                   <a href={client.url} target="_blank" rel="noopener noreferrer">
-                    {client.name}
+                    <Image
+                      src={client.logo}
+                      alt={client.name}
+                      width={client.width}
+                      height={client.height}
+                      loading="eager"
+                      className={client.monochrome ? styles.monochrome : undefined}
+                    />
                     <span className={styles.srOnly}> (opens in a new tab)</span>
                   </a>
                 </li>
@@ -39,7 +47,16 @@ export function ClientShowcase() {
             </ul>
             <div className={`${styles.group} ${styles.duplicate}`} aria-hidden="true">
               {clients.map((client) => (
-                <span className={styles.copy} key={client.url}>{client.name}</span>
+                <span className={styles.copy} key={client.url}>
+                  <Image
+                    src={client.logo}
+                    alt=""
+                    width={client.width}
+                    height={client.height}
+                    loading="eager"
+                    className={client.monochrome ? styles.monochrome : undefined}
+                  />
+                </span>
               ))}
             </div>
           </div>

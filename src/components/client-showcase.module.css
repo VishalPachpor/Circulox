@@ -57,8 +57,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 48px;
-  padding: 0 44px;
+  min-height: 52px;
+  padding: 0 32px;
   white-space: nowrap;
   text-decoration: none;
   font-family: var(--font-dm-sans), sans-serif;
@@ -69,6 +69,16 @@
   color: var(--ink);
 }
 .group a:hover { color: #92513e; }
+.group img {
+  display: block;
+  flex-shrink: 0;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: .78;
+  transition: opacity 160ms ease;
+}
+.group img.monochrome { filter: brightness(0); }
+.group a:hover img, .group a:focus-visible img { opacity: 1; }
 .srOnly {
   position: absolute;
   width: 1px;
@@ -85,11 +95,11 @@
 @media (max-width: 560px) {
   .section { padding: 7px 0 16px; }
   .heading { margin-bottom: 0; }
-  .group a, .copy { padding-inline: 24px; font-size: 19px; min-height: 44px; }
+  .group a, .copy { padding-inline: 22px; font-size: 19px; min-height: 48px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .track { animation: none; width: auto; }
-  .group { flex: 1 1 100%; min-width: 0; width: 100%; flex-wrap: wrap; gap: 4px 22px; }
+  .group { flex: 1 1 100%; min-width: 0; width: 100%; flex-wrap: wrap; gap: 12px 28px; }
   .group a { justify-content: flex-start; padding-inline: 0; font-size: 17px; }
   .duplicate, .pause { display: none; }
   .window { mask-image: none; }

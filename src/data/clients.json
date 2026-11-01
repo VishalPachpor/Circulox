@@ -1,19 +1,138 @@
 [
-  { "name": "Lighter", "url": "https://lighter.xyz/" },
-  { "name": "Invo", "url": "https://www.invoapp.com/" },
-  { "name": "Entropy", "url": "https://entropy.io/" },
-  { "name": "QFEX", "url": "https://www.qfex.com/" },
-  { "name": "Wick", "url": "https://wick.trade/" },
-  { "name": "Umbra", "url": "https://www.umbraprivacy.com/" },
-  { "name": "Superteam Black", "url": "https://www.superteamblack.com/" },
-  { "name": "Dope", "url": "https://dopepay.me/" },
-  { "name": "Airaa", "url": "https://airaa.xyz/" },
-  { "name": "Juicy Labs", "url": "https://x.com/juicy_ag" },
-  { "name": "Smart Jelly", "url": "https://smartjelly.ai/" },
-  { "name": "EVORA", "url": "https://www.evoracharge.com/" },
-  { "name": "Herodotus", "url": "https://herodotus.dev/" },
-  { "name": "Brightside", "url": "https://x.com/brightside_gg" },
-  { "name": "Godpack", "url": "https://x.com/godpack" },
-  { "name": "Send Arcade", "url": "https://x.com/sendarcadefun" },
-  { "name": "Paystream", "url": "https://x.com/Paystreamlabs" }
+  {
+    "name": "Lighter",
+    "url": "https://lighter.xyz/",
+    "logo": "/clients/lighter.svg",
+    "width": 22,
+    "height": 40,
+    "monochrome": true
+  },
+  {
+    "name": "Invo",
+    "url": "https://www.invoapp.com/",
+    "logo": "/clients/invo.webp",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Entropy",
+    "url": "https://entropy.io/",
+    "logo": "/clients/entropy.svg",
+    "width": 40,
+    "height": 40,
+    "monochrome": true
+  },
+  {
+    "name": "QFEX",
+    "url": "https://www.qfex.com/",
+    "logo": "/clients/qfex.svg",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Wick",
+    "url": "https://wick.trade/",
+    "logo": "/clients/wick.svg",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Umbra",
+    "url": "https://www.umbraprivacy.com/",
+    "logo": "/clients/umbra.svg",
+    "width": 130,
+    "height": 30,
+    "monochrome": false
+  },
+  {
+    "name": "Superteam Black",
+    "url": "https://www.superteamblack.com/",
+    "logo": "/clients/superteam-black.svg",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Dope",
+    "url": "https://dopepay.me/",
+    "logo": "/clients/dope.webp",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Airaa",
+    "url": "https://airaa.xyz/",
+    "logo": "/clients/airaa.svg",
+    "width": 124,
+    "height": 32,
+    "monochrome": true
+  },
+  {
+    "name": "Juicy Labs",
+    "url": "https://x.com/juicy_ag",
+    "logo": "/clients/juicy-labs.webp",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Smart Jelly",
+    "url": "https://smartjelly.ai/",
+    "logo": "/clients/smart-jelly.webp",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "EVORA",
+    "url": "https://www.evoracharge.com/",
+    "logo": "/clients/evora.svg",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Herodotus",
+    "url": "https://herodotus.dev/",
+    "logo": "/clients/herodotus.svg",
+    "width": 142,
+    "height": 26,
+    "monochrome": true
+  },
+  {
+    "name": "Brightside",
+    "url": "https://x.com/brightside_gg",
+    "logo": "/clients/brightside.webp",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Godpack",
+    "url": "https://x.com/godpack",
+    "logo": "/clients/godpack.webp",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Send Arcade",
+    "url": "https://x.com/sendarcadefun",
+    "logo": "/clients/send-arcade.webp",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  },
+  {
+    "name": "Paystream",
+    "url": "https://x.com/Paystreamlabs",
+    "logo": "/clients/paystream.webp",
+    "width": 40,
+    "height": 40,
+    "monochrome": false
+  }
 ]
