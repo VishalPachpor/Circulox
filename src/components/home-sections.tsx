@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { bookingUrl } from "@/lib/site";
 import Link from "next/link";
-import mineral from "../../public/mineral-editorial.png";
+import legalEditorial from "../../public/legal-editorial.webp";
 export function Opening() {
   return (
     <section className="opening">
@@ -30,17 +30,20 @@ export function Opening() {
       </div>
       <figure
         className="opening-art"
-        aria-label="Editorial study of natural mineral strata"
+        aria-label="Editorial image of scales of justice in a law library"
       >
-        <Image
-          src={mineral}
-          alt="Natural mineral layers"
-          fill
-          priority
-          sizes="(max-width:800px) 100vw, 52vw"
-        />
+        <picture>
+          <source media="(max-width: 800px)" srcSet="/legal-editorial-mobile.webp" />
+          <Image
+            src={legalEditorial}
+            alt="Bronze scales of justice and law books in a warm walnut library"
+            fill
+            priority
+            sizes="(max-width:800px) 100vw, 52vw"
+          />
+        </picture>
         <figcaption className="image-note">
-          {"Perspective, in detail."}
+          {"Legal perspective. Business focus."}
         </figcaption>
       </figure>
     </section>
