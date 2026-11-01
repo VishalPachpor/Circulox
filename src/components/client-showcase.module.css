@@ -89,7 +89,7 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .track { animation: none; width: auto; }
-  .group { flex-wrap: wrap; gap: 4px 22px; }
+  .group { flex: 1 1 100%; min-width: 0; width: 100%; flex-wrap: wrap; gap: 4px 22px; }
   .group a { justify-content: flex-start; padding-inline: 0; font-size: 17px; }
   .duplicate, .pause { display: none; }
   .window { mask-image: none; }
