@@ -1,6 +1,7 @@
 import "@/styles/home.css";
 import "@/styles/inner.css";
 import "@/styles/site-typography.css";
+import "@/styles/mobile-expertise.css";
 import { PreviewRefresh } from "@/components/preview-refresh";
 import { draftMode } from "next/headers";
 import { VisualEditing } from "next-sanity/visual-editing";
