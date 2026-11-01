@@ -19,9 +19,6 @@ export function Footer({ home = false }: { home?: boolean }) {
           International legal &amp; business advisory. Engagement scope and
           jurisdiction-specific requirements are considered for each matter.
         </p>
-        <Link className="studio-link" href="/studio">
-          Editor sign in
-        </Link>
       </div>
     </footer>
   ) : (
@@ -30,9 +27,6 @@ export function Footer({ home = false }: { home?: boolean }) {
         <BrandLogo />
       </Link>
       <p>International legal &amp; business advisory.</p>
-      <Link className="studio-link" href="/studio">
-        Editor sign in
-      </Link>
     </footer>
   );
 }

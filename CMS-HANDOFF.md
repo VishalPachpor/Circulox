@@ -2,7 +2,7 @@
 
 ## What the owner will do
 
-1. Open `/studio` (or use **Editor sign in** in the website footer).
+1. Open https://circulox-preview.vercel.app/studio directly. The public website does not show an editor sign-in link.
 2. Sign in with an invited Sanity project account.
 3. In **Authors**, add the actual author name and role.
 4. In **Articles**, select **Create**, write the title and introduction, generate the web address, select an author/category, add tags and write the body.
