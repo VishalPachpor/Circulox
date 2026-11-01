@@ -1,0 +1,134 @@
+{
+  "created": "2026-11-02",
+  "source": "https://circulox-preview.vercel.app",
+  "existingPages": 20,
+  "templates": 1,
+  "pages": [
+    {
+      "file": "pages/01-home.html",
+      "title": "Homepage",
+      "route": "/",
+      "status": "Existing public page"
+    },
+    {
+      "file": "pages/02-firm.html",
+      "title": "The firm",
+      "route": "/firm",
+      "status": "Existing public page"
+    },
+    {
+      "file": "pages/03-contact.html",
+      "title": "Contact",
+      "route": "/contact",
+      "status": "Existing public page"
+    },
+    {
+      "file": "pages/04-insights.html",
+      "title": "Insights & guides",
+      "route": "/insights",
+      "status": "Existing public page"
+    },
+    {
+      "file": "pages/05-service-formation.html",
+      "title": "Company incorporation & international structuring",
+      "route": "/services/formation",
+      "status": "Existing service page"
+    },
+    {
+      "file": "pages/06-service-regulation.html",
+      "title": "Web3, crypto & fintech regulation",
+      "route": "/services/regulation",
+      "status": "Existing service page"
+    },
+    {
+      "file": "pages/07-service-platform.html",
+      "title": "App Store & technology compliance",
+      "route": "/services/platform",
+      "status": "Existing service page"
+    },
+    {
+      "file": "pages/08-service-governance.html",
+      "title": "Corporate governance & legal documentation",
+      "route": "/services/governance",
+      "status": "Existing service page"
+    },
+    {
+      "file": "pages/09-service-banking.html",
+      "title": "Banking, payments & tax advisory",
+      "route": "/services/banking",
+      "status": "Existing service page"
+    },
+    {
+      "file": "pages/10-service-startup.html",
+      "title": "Startup & investment advisory",
+      "route": "/services/startup",
+      "status": "Existing service page"
+    },
+    {
+      "file": "pages/11-service-ip.html",
+      "title": "Intellectual property",
+      "route": "/services/ip",
+      "status": "Existing service page"
+    },
+    {
+      "file": "pages/12-service-disputes.html",
+      "title": "Legal notices & dispute resolution",
+      "route": "/services/disputes",
+      "status": "Existing service page"
+    },
+    {
+      "file": "pages/13-jurisdiction-united-states.html",
+      "title": "United States — formation & structuring",
+      "route": "/jurisdictions/united-states",
+      "status": "Existing jurisdiction page"
+    },
+    {
+      "file": "pages/14-jurisdiction-united-kingdom.html",
+      "title": "United Kingdom — formation & structuring",
+      "route": "/jurisdictions/united-kingdom",
+      "status": "Existing jurisdiction page"
+    },
+    {
+      "file": "pages/15-jurisdiction-uae.html",
+      "title": "United Arab Emirates — formation & structuring",
+      "route": "/jurisdictions/uae",
+      "status": "Existing jurisdiction page"
+    },
+    {
+      "file": "pages/16-jurisdiction-singapore.html",
+      "title": "Singapore — formation & structuring",
+      "route": "/jurisdictions/singapore",
+      "status": "Existing jurisdiction page"
+    },
+    {
+      "file": "pages/17-jurisdiction-bvi.html",
+      "title": "British Virgin Islands — formation & structuring",
+      "route": "/jurisdictions/bvi",
+      "status": "Existing jurisdiction page"
+    },
+    {
+      "file": "pages/18-jurisdiction-cayman.html",
+      "title": "Cayman Islands — formation & structuring",
+      "route": "/jurisdictions/cayman",
+      "status": "Existing jurisdiction page"
+    },
+    {
+      "file": "pages/19-jurisdiction-seychelles.html",
+      "title": "Seychelles — formation & structuring",
+      "route": "/jurisdictions/seychelles",
+      "status": "Existing jurisdiction page"
+    },
+    {
+      "file": "pages/20-jurisdiction-india.html",
+      "title": "India — formation & structuring",
+      "route": "/jurisdictions/india",
+      "status": "Existing jurisdiction page"
+    },
+    {
+      "file": "pages/21-article-template.html",
+      "title": "Future article — writing template",
+      "route": "/insights/[slug]",
+      "status": "Template only — not a published article"
+    }
+  ]
+}

@@ -23,6 +23,12 @@ npm start
 
 ## Content management
 
+### Client content workbook
+
+Open [the page-by-page HTML content index](public/content-pack/index.html), or send the client [the downloadable ZIP](public/downloads/circulox-content-pack.zip). It contains 20 current public-page briefs and one future article template, each with current draft copy, section requirements, owner questions and a tailored GPT prompt. Proposed additions are clearly separated from implemented content. The files work offline and do not save edits.
+
+Regenerate from the current public preview with `python3 scripts/export-content-pack.py --base-url https://circulox-preview.vercel.app`. The exporter validates local links and ZIP integrity. Review the captured date and page-specific briefs when regenerating for a later release.
+
 Open `/studio` or `/admin`. Sanity handles invited-member authentication, article/author editing, drafts, images and publishing. The public frontend renders published content server-side; new changes appear within around a minute. Private draft preview uses the official Sanity handshake.
 
 See [CMS-HANDOFF.md](CMS-HANDOFF.md) for owner instructions, project connection and the required real-account verification.

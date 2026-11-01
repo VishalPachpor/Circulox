@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { BrandLogo } from "./brand-logo";
 import { useEffect, useRef, useState } from "react";
+import styles from "./header-menu.module.css";
 export function Header({ home = false }: { home?: boolean }) {
   const [open, setOpen] = useState(false);
   const button = useRef<HTMLButtonElement>(null);
@@ -60,11 +61,16 @@ export function Header({ home = false }: { home?: boolean }) {
         ref={button}
         className={home ? "menu" : "site-menu"}
         type="button"
+        aria-label={open ? "Close menu" : "Open menu"}
         aria-controls={home ? "navigation" : "site-navigation"}
         aria-expanded={open}
         onClick={() => setOpen(!open)}
       >
-        {open ? "Close menu" : "Menu"}
+        <svg className={styles.icon} data-open={open} viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path className={styles.first} d="M3 6h18" />
+          <path className={styles.middle} d="M3 12h18" />
+          <path className={styles.last} d="M3 18h18" />
+        </svg>
       </button>
     </>
   );
