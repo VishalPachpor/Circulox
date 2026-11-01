@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { BrandLogo } from "./brand-logo";
 export function Footer({ home = false }: { home?: boolean }) {
   return home ? (
     <footer className="footer shell">
       <div className="footer-top">
         <Link href="/" className="wordmark">
-          circulox
+          <BrandLogo />
         </Link>
         <nav aria-label="Footer navigation">
           <Link href="/firm">The firm</Link>
@@ -26,7 +27,7 @@ export function Footer({ home = false }: { home?: boolean }) {
   ) : (
     <footer className="shell footer">
       <Link href="/" className="wordmark">
-        circulox
+        <BrandLogo />
       </Link>
       <p>International legal &amp; business advisory.</p>
       <Link className="studio-link" href="/studio">

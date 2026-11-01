@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { BrandLogo } from "./brand-logo";
 import { useEffect, useRef, useState } from "react";
 export function Header({ home = false }: { home?: boolean }) {
   const [open, setOpen] = useState(false);
@@ -45,7 +46,7 @@ export function Header({ home = false }: { home?: boolean }) {
   const content = (
     <>
       <Link className="wordmark" href="/" aria-label="Circulox home">
-        circulox
+        <BrandLogo />
       </Link>
       {!home && (
         <nav className="desktop-navigation" aria-label="Main navigation">

@@ -17,19 +17,7 @@
   line-height: 1.4;
   color: var(--muted);
 }
-.heading .pause {
-  padding: 10px 0 10px 12px;
-  min-width: 44px;
-  min-height: 44px;
-  border: 0;
-  background: transparent;
-  color: var(--muted);
-  font: inherit;
-  font-size: 12px;
-  cursor: pointer;
-}
-.pause:hover { color: var(--ink); }
-.pause:focus-visible, .group a:focus-visible {
+.group a:focus-visible {
   outline: 2px solid var(--ink);
   outline-offset: -2px;
 }
@@ -42,7 +30,7 @@
   width: max-content;
   animation: clients-drift 42s linear infinite;
 }
-.track[data-paused="true"], .window:focus-within .track {
+.window:focus-within .track {
   animation-play-state: paused;
 }
 .group {
@@ -89,9 +77,6 @@
   white-space: nowrap;
 }
 @keyframes clients-drift { to { transform: translateX(-50%); } }
-@media (hover: hover) {
-  .window:hover .track { animation-play-state: paused; }
-}
 @media (max-width: 560px) {
   .section { padding: 7px 0 16px; }
   .heading { margin-bottom: 0; }
@@ -101,7 +86,7 @@
   .track { animation: none; width: auto; }
   .group { flex: 1 1 100%; min-width: 0; width: 100%; flex-wrap: wrap; gap: 12px 28px; }
   .group a { justify-content: flex-start; padding-inline: 0; font-size: 17px; }
-  .duplicate, .pause { display: none; }
+  .duplicate { display: none; }
   .window { mask-image: none; }
   .heading { min-height: 36px; }
 }
