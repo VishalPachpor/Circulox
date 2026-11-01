@@ -5,7 +5,7 @@ import { Footer } from "./footer";
 import { ResponsiveDetails } from "./details";
 import services from "@/data/services.json";
 import { bookingUrl } from "@/lib/site";
-import mineral from "../../public/mineral-editorial.png";
+import legalEditorial from "../../public/legal-editorial.webp";
 export type DetailContent = {
   title: string;
   intro: string;
@@ -42,12 +42,15 @@ export function DetailPage({
             <p>{content.intro}</p>
           </div>
           <figure aria-hidden="true">
-            <Image
-              src={mineral}
-              alt=""
-              priority
-              sizes="(max-width:560px) 100vw, 35vw"
-            />
+            <picture>
+              <source media="(max-width: 560px)" srcSet="/legal-editorial-mobile.webp" />
+              <Image
+                src={legalEditorial}
+                alt="Bronze scales of justice and law books"
+                priority
+                sizes="(max-width:560px) 100vw, 35vw"
+              />
+            </picture>
           </figure>
         </div>
         <nav className="shell section-nav" aria-label="On this page">
