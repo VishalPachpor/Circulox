@@ -9,6 +9,7 @@ import {
 } from "@/components/home-sections";
 import { Jurisdictions } from "@/components/jurisdictions";
 import { SocialPosts } from "@/components/social-posts";
+import { ClientShowcase } from "@/components/client-showcase";
 import { getPosts } from "@/lib/posts";
 export const metadata = { alternates: { canonical: "/" } };
 export default async function Home() {
@@ -18,6 +19,7 @@ export default async function Home() {
       <Header home />
       <main id="main">
         <Opening />
+        <ClientShowcase />
         <About />
         <Expertise />
         <Jurisdictions />
