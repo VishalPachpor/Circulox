@@ -112,14 +112,6 @@
     "monochrome": false
   },
   {
-    "name": "Godpack",
-    "url": "https://x.com/godpack",
-    "logo": "/clients/godpack.webp",
-    "width": 40,
-    "height": 40,
-    "monochrome": false
-  },
-  {
     "name": "Send Arcade",
     "url": "https://x.com/sendarcadefun",
     "logo": "/clients/send-arcade.webp",
