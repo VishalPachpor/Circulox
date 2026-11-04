@@ -8,6 +8,7 @@ export function ClientShowcase() {
       <div className="shell">
         <div className={styles.heading}>
           <h2 id="clients-title">Selected clients</h2>
+          <p>Supporting founders and teams building across borders.</p>
         </div>
         <div className={styles.window}>
           <div
@@ -17,21 +18,30 @@ export function ClientShowcase() {
             <ul className={styles.group} aria-label="Circulox clients">
               {clients.map((client) => (
                 <li key={client.url}>
-                  <a href={client.url} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={client.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Image
                       src={client.logo}
                       alt={client.name}
                       width={client.width}
                       height={client.height}
                       loading="eager"
-                      className={client.monochrome ? styles.monochrome : undefined}
+                      className={
+                        client.monochrome ? styles.monochrome : undefined
+                      }
                     />
                     <span className={styles.srOnly}> (opens in a new tab)</span>
                   </a>
                 </li>
               ))}
             </ul>
-            <div className={`${styles.group} ${styles.duplicate}`} aria-hidden="true">
+            <div
+              className={`${styles.group} ${styles.duplicate}`}
+              aria-hidden="true"
+            >
               {clients.map((client) => (
                 <span className={styles.copy} key={client.url}>
                   <Image
@@ -40,7 +50,9 @@ export function ClientShowcase() {
                     width={client.width}
                     height={client.height}
                     loading="eager"
-                    className={client.monochrome ? styles.monochrome : undefined}
+                    className={
+                      client.monochrome ? styles.monochrome : undefined
+                    }
                   />
                 </span>
               ))}

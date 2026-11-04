@@ -1,3 +1,4 @@
+import copy from "@/data/page-copy.json";
 import Image from "next/image";
 import { bookingUrl } from "@/lib/site";
 import Link from "next/link";
@@ -7,23 +8,26 @@ export function Opening() {
     <section className="opening">
       <div className="opening-copy">
         <div>
-          <div className="label entrance">{"Legal & business advisory"}</div>
+          <div className="label entrance">{copy.homepage.eyebrow}</div>
           <h1 className="entrance">
-            {"Legal advice for"}
+            {"Establish your business."}
             <br />
-            <em>{"international business."}</em>
+            <em>{"Navigate what comes next."}</em>
           </h1>
           <p className="entrance" data-pretext={true}>
-            {
-              "Company formation, regulatory advice and ongoing legal support for startups, fintech, Web3 and established businesses."
-            }
+            {copy.homepage.intro}
           </p>
           <div className="opening-actions entrance">
-            <Link className="button" href="/#consultation">
-              {"Discuss your matter"}
-            </Link>
-            <Link className="link" href="/#expertise">
-              {"Explore our expertise"}
+            <a
+              className="button"
+              href={bookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book a call
+            </a>
+            <Link className="link" href="/contact">
+              Contact us
             </Link>
           </div>
         </div>
@@ -33,7 +37,10 @@ export function Opening() {
         aria-label="Editorial image of scales of justice in a law library"
       >
         <picture>
-          <source media="(max-width: 800px)" srcSet="/legal-editorial-mobile.webp" />
+          <source
+            media="(max-width: 800px)"
+            srcSet="/legal-editorial-mobile.webp"
+          />
           <Image
             src={legalEditorial}
             alt="Bronze scales of justice and law books in a warm walnut library"
@@ -54,18 +61,25 @@ export function About() {
     <section className="about shell" id="firm">
       <div className="section-label">{"The firm"}</div>
       <p className="about-statement reveal">
-        {
-          "We help businesses establish, operate and grow internationally, with legal and commercial advice considered together."
-        }
+        {"Clear advice. Practical support."}
       </p>
       <div className="about-bottom reveal">
         <div>
           <p data-pretext={true}>
             {
-              "Company formation, regulatory advice, commercial documentation and operational matters, considered together in the context of your business."
+              "Building across borders brings decisions about where to establish your company, which permissions your activities may require and how to prepare your product for market."
             }
           </p>
-          <div className="about-links"></div>
+          <p>
+            Circulox connects these decisions, explaining the issues and
+            coordinating with affiliated local providers where needed. Our team
+            gives you a clear point of contact as your business moves forward.
+          </p>
+          <div className="about-links">
+            <Link className="link" href="/firm">
+              About Circulox
+            </Link>
+          </div>
         </div>
       </div>
     </section>
@@ -77,11 +91,11 @@ export function Expertise() {
       <div className="shell">
         <div className="expertise-index reveal">
           <div className="expertise-heading">
-            <h2>{"Our expertise."}</h2>
+            <h2>{"Support for each stage of your business."}</h2>
             <div>
               <p>
                 {
-                  "Advice across the legal, regulatory and operational matters of doing business internationally."
+                  "From company formation and licensing to mobile app compliance and ongoing legal needs, our advice connects your business plans with the steps needed to move forward."
                 }
               </p>
             </div>
@@ -95,7 +109,7 @@ export function Expertise() {
               </h3>
               <p>
                 {
-                  "Choose a jurisdiction, establish your company and prepare for investment."
+                  "Choose where to establish your business, structure its ownership and prepare for investment."
                 }
               </p>
               <div className="formation-markets">
@@ -141,7 +155,7 @@ export function Expertise() {
               <h3>{"Regulation & technology"}</h3>
               <p>
                 {
-                  "Navigate financial regulation and the policies behind your product."
+                  "Understand licensing and registration requirements, and address App Store and Google Play compliance before submission or following a rejection."
                 }
               </p>
               <ul>
@@ -175,7 +189,7 @@ export function Expertise() {
               <h3>{"Business operations"}</h3>
               <p>
                 {
-                  "Support for the contracts, compliance and infrastructure of your business."
+                  "Put agreements, governance and operating arrangements in place, with support for banking, payments and tax questions."
                 }
               </p>
               <ul>
@@ -211,7 +225,7 @@ export function Expertise() {
               <h3>{"Protection & disputes"}</h3>
               <p>
                 {
-                  "Protect your brand and respond to commercial or platform disputes."
+                  "Protect your intellectual property and respond to disputes with advice grounded in your business priorities."
                 }
               </p>
               <ul>
@@ -263,7 +277,7 @@ export function Conversation() {
         <div>
           <p>
             {
-              "Tell us about your business, the jurisdictions involved and where you need legal support. Choose a time to speak with Circulox."
+              "Tell us what you are building, where you plan to operate and the questions you need help answering. Speak with our team about the legal or compliance support you are looking for."
             }
           </p>
           <a
@@ -272,7 +286,7 @@ export function Conversation() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {"Book a consultation"}
+            {"Book a call"}
           </a>
         </div>
       </div>

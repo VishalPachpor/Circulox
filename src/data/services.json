@@ -2,281 +2,349 @@
   "formation": {
     "title": "Company incorporation & international structuring",
     "short": "Company formation",
-    "intro": "A company is part of a wider business structure. We advise on formation, ownership and jurisdiction choices in the context of where you intend to operate.",
+    "intro": "Where you establish your company should reflect how you plan to operate. Circulox supports international founders with jurisdiction selection, incorporation and the arrangements needed to maintain their company. We consider your activities, ownership, customers and plans for growth together, coordinating with affiliated local providers where needed. Banking, licensing and tax support can be added to the engagement according to your needs.",
     "scope": [
       [
         "Company formation",
-        "Formation support across the US, UK, UAE, Singapore, India, BVI, Cayman and Seychelles, with jurisdiction-specific scope discussed for your business."
+        "We help founders establish companies with support shaped around the jurisdiction and business involved. Your engagement can cover registration, registered address arrangements, local director services, ownership documentation and ongoing filings through our affiliated providers."
       ],
       [
-        "Holding companies & SPVs",
-        "Structures for ownership, investment and defined business activities, considered alongside your wider group."
+        "Holding companies & special-purpose vehicles",
+        "An operating company carries out business activities. A holding company is used to hold ownership interests or assets, while a special-purpose vehicle is established for a defined purpose. The structure you need depends on what it is intended to do. We discuss the proposed role of each company, who will own it and how it will relate to your wider business before defining the formation and documentation support required."
       ],
       [
         "International structuring",
-        "Jurisdiction advisory and offshore structuring, with corporate, banking and operational requirements considered together."
+        "For founders working across markets, incorporation is one part of a wider set of decisions. We consider where founders and decision-makers are based, how ownership will be organised, where customers are located and what the business needs to operate. Banking, licensing and tax questions can be scoped alongside formation where relevant. Our team coordinates with affiliated local providers according to the countries and services involved, keeping communication through Circulox."
       ]
     ],
     "prepare": [
       "What the business will do and where its customers will be.",
       "Where founders and decision-makers are based.",
-      "Planned ownership, fundraising and banking requirements."
+      "Your proposed ownership, investment plans and banking needs."
     ],
     "questions": [
       [
         "Can you help us choose a jurisdiction?",
-        "Jurisdiction advisory is part of the service. The conversation starts with your activities, ownership and operating markets, rather than a preselected country."
+        "Yes. We start with your business activities, founder locations, ownership and operating markets. We also discuss investment plans and banking needs, so the formation decision can be considered alongside the practical support your business will need. If you already have a jurisdiction in mind, we can discuss it in that context."
       ],
       [
-        "Is this only for new companies?",
-        "The scope also includes holding companies, SPVs and international structures. Share your existing structure if you are considering a change."
+        "Can you arrange registered addresses and local directors?",
+        "Yes. Registered address arrangements and local director services can form part of the engagement through our providers, depending on the jurisdiction and your needs. We also support ownership documentation and ongoing filings. The services included are defined for your engagement, so you can distinguish formation work from recurring support."
+      ],
+      [
+        "What will we receive once incorporation is complete?",
+        "You receive your company details and the relevant information and documents included in the agreed scope. The precise deliverables depend on the jurisdiction, company and services requested. We define these for your engagement rather than promising the same document set for every company or country."
+      ],
+      [
+        "Are banking, licensing and tax support included?",
+        "These services can be scoped and invoiced according to your needs. Tell us which areas you need support with so they can be considered alongside incorporation. The engagement will distinguish company formation from any separate banking, licensing or tax work, including the coordination involved with relevant providers."
       ]
     ],
-    "related": ["startup", "banking"]
+    "related": ["startup", "banking", "regulation"]
   },
   "regulation": {
     "title": "Web3, crypto & fintech regulation",
     "short": "Digital finance regulation",
-    "intro": "Regulatory questions are inseparable from how a financial product works. We advise on the business model, relevant markets and legal requirements behind digital finance.",
+    "intro": "Building a financial or digital-asset business brings questions about your activities, markets and the permissions you may need. Circulox supports fintech, trading, crypto and Web3 teams with regulatory guidance, licensing and registration support shaped around their business. We help connect these questions with your company structure, product and operating plans, coordinating with affiliated local providers where the engagement calls for local expertise.",
     "scope": [
       [
-        "Regulatory scope & legal opinions",
-        "Advice concerning crypto, fintech, DeFi, exchanges, derivatives and prediction markets, including legal opinions where appropriate to the engagement."
+        "Regulatory assessment",
+        "We start with the product: what it does, who uses it and how money or assets move through it. The discussion considers your company's role, the markets you intend to serve and the questions you need answered. This helps define the regulatory work needed for a proposed launch, expansion or change in business model. The scope is agreed for your circumstances, with local provider involvement considered according to the jurisdictions involved."
       ],
       [
-        "VASP licensing",
-        "Licensing advisory shaped around the proposed activities and relevant jurisdictions."
+        "Licensing & registration support",
+        "We support businesses exploring licensing and registration routes across jurisdictions. The work is shaped around your activities and target markets, rather than a fixed list of licence categories. Support can span preparation, application and follow-up, with affiliated local providers involved where needed. We discuss the documents, coordination and related work required for your engagement, so you understand what is included and which additional services need to be scoped."
       ],
       [
-        "AML/KYC & compliance",
-        "Advice on anti-money laundering, customer verification and regulatory compliance for the business and its operating model."
+        "Compliance planning & coordination",
+        "Regulatory questions also affect how a business prepares to operate. We help connect the advice and licensing work with your company arrangements, product plans and related support needs. Where a matter involves specialist compliance questions, we discuss the appropriate scope and local involvement. Your team remains responsible for running the business and implementing its operating procedures; Circulox's role and the work of any providers are defined within the engagement."
       ]
     ],
     "prepare": [
-      "A short product description and the users it serves.",
-      "The countries in which you operate or intend to launch.",
-      "How assets and payments move through the product."
+      "What the product does, who uses it and whether it is planned or already operating.",
+      "Where the company and its customers are located, including intended launch markets.",
+      "How payments or assets move, which parties hold or control them and the question you need help answering."
     ],
     "questions": [
       [
-        "What should we share about the product?",
-        "A product overview, customer journey and asset-flow diagram provide a useful starting point. Include any existing licences or regulatory correspondence."
+        "Which licences and registrations can you help with?",
+        "We discuss the available scope in the context of your activities and jurisdictions. Our licensing support covers a range of business needs, rather than a single licence category. Share your product, target markets and any route you are considering so we can assess the support and local coordination your engagement requires."
       ],
       [
-        "Can this include a legal opinion?",
-        "Legal opinions are within the stated service scope. The question to be addressed, intended use and relevant jurisdictions need to be discussed first."
+        "Can we speak with you before the product is ready?",
+        "Yes. A description of the proposed product, its users and how it will operate provides a starting point. If the business model is still developing, explain the options you are considering. We can discuss the regulatory questions that need attention and define an engagement around the decisions ahead."
+      ],
+      [
+        "Can you support a business that is already operating?",
+        "Yes. Tell us about the current business, the markets it serves and the issue you need to address. This might involve expansion, a product change or a licensing question. The scope will reflect your existing arrangements, the information available and any relevant timeline or correspondence you describe."
+      ],
+      [
+        "Is incorporation included in licensing support?",
+        "Company formation and licensing are scoped as distinct services, which can be coordinated within a wider engagement. If you also need banking or tax support, we can discuss those needs together. The agreed scope and invoicing will reflect the services requested, including work involving affiliated local providers."
       ]
     ],
-    "related": ["platform", "banking"]
+    "related": ["formation", "platform", "banking"]
   },
   "platform": {
     "title": "App Store & technology compliance",
     "short": "App & technology compliance",
-    "intro": "An app\u2019s product design, financial features and legal structure need to be considered together. We support businesses working through platform policies, reviews and rejection appeals.",
+    "intro": "Whether you are preparing your first submission or working through a rejection, Circulox supports the legal and compliance side of bringing your app to the App Store and Google Play. We consider your product, business structure, documentation and platform correspondence together, helping your team understand the issues and prepare its next steps. Our work supports fintech, trading, crypto, Web3, AI and other startup products.",
     "scope": [
       [
-        "Platform policy review",
-        "Advice on Apple App Store and Google Play requirements, including policies relevant to financial apps."
+        "Pre-submission compliance review",
+        "Before you submit, we review the app's features, user journey and supporting legal documentation in the context of the platform and intended markets. For products involving financial activity, this includes understanding how money or assets move and which company provides the service. We help identify compliance questions to address and the documentation or explanations to prepare. The engagement reflects your product and stage of development, with the work and deliverables agreed at the outset."
       ],
       [
-        "Rejection appeals",
-        "Support with the legal and regulatory aspects of responding to app rejection notices and platform correspondence."
+        "Rejection responses & appeals",
+        "If your app has been rejected, we start with the exact notice, submission history and the features under review. We assess the concerns raised alongside your product, company arrangements and available documents, then support the response or appeal within the agreed scope. This can include clarifying the business model, preparing supporting explanations and addressing legal or compliance documentation. We also discuss whether the response needs to be accompanied by changes to the product or its presentation."
       ],
       [
-        "Product structuring",
-        "Consideration of the product\u2019s features, business structure and platform regulatory requirements before or during review."
+        "Product structure & documentation",
+        "An app's features, the company behind it and the way its services are described need to be considered together. We help teams work through the legal and compliance questions connecting these areas, including documents and explanations relevant to the review. Where a matter also calls for company formation or licensing support, we can coordinate that work as part of a wider engagement. Specific documents and any additional professional input are scoped according to the issue involved."
       ]
     ],
     "prepare": [
-      "Your app description and the features under review.",
-      "The original rejection notice and subsequent correspondence.",
-      "Launch markets, company details and relevant legal documents."
+      "Your app: What it does, who uses it, the relevant features and intended launch markets.",
+      "Your review stage: Whether you are preparing a submission or responding to platform feedback, including the wording of any rejection and subsequent correspondence.",
+      "Your business: The company providing the service, how payments or assets move where relevant, and any existing legal or licensing arrangements."
     ],
     "questions": [
       [
-        "Can we approach you before submitting an app?",
-        "Yes. The service includes platform compliance and product structuring, as well as rejection appeals."
+        "Can you review an app before it is submitted?",
+        "Yes. We support pre-submission compliance reviews as well as rejection responses and appeals. Tell us what the app does, where you intend to launch and how far development has progressed. The scope can then focus on the legal and compliance questions relevant to your submission and supporting documentation."
       ],
       [
-        "What helps when an app has already been rejected?",
-        "Share the exact notice, review history and the version or features involved. These give the discussion a concrete starting point."
+        "Do you support both the App Store and Google Play?",
+        "Yes. Our support covers both platforms. Let us know which platform is involved and whether you are dealing with the same issue on each. We consider the product and correspondence for the relevant review, rather than assuming one response or document set will address every submission."
+      ],
+      [
+        "What if our app has already been rejected more than once?",
+        "Share the sequence of notices, your previous responses and any changes made between submissions. That history helps us understand the issues raised and what remains unresolved. We can then discuss support for the next response, appeal or related compliance work based on the information available."
+      ],
+      [
+        "Will an appeal be enough, or could the product need changes?",
+        "The appropriate response depends on the issue raised. Our review considers whether clarification, supporting documents or changes to the product or its presentation should be part of the next step. We discuss those findings with your team so the response reflects how the app works and what you plan to submit."
+      ],
+      [
+        "Is platform compliance the same as licensing advice?",
+        "We scope platform review and licensing work separately. If your app raises a licensing question, we can discuss the regulatory support required alongside the platform engagement. The agreed scope identifies the work involved, including any local provider coordination. App publication is not presented as confirmation of a business's regulatory position."
       ]
     ],
-    "related": ["regulation", "governance"]
+    "related": ["regulation", "governance", "formation"]
   },
   "governance": {
     "title": "Corporate governance & legal documentation",
     "short": "Governance & documentation",
-    "intro": "Clear corporate records and well-considered agreements support the decisions a business makes every day. We advise on governance, company changes and commercial documentation.",
+    "intro": "As your business develops, its company records, ownership arrangements and agreements need attention. Circulox supports international founders and teams with corporate governance and legal documentation, connecting the documents with the decisions they are intended to support. Whether you are planning a company change, agreeing commercial terms or preparing customer-facing documents, we discuss the work in the context of your business and the jurisdictions involved.",
     "scope": [
       [
-        "Corporate governance",
-        "Corporate compliance, director and shareholder changes, bylaws and company resolutions."
+        "Company changes & corporate governance",
+        "Changes to directors, shareholders or company arrangements need to be considered alongside existing records and the decision being made. We discuss the ownership documentation, resolutions, company documents and related filing support relevant to your matter. Where the work involves local procedures, Circulox coordinates with affiliated providers according to the jurisdiction and agreed scope. Support can also extend to ongoing filings and company maintenance, with recurring work distinguished from a one-off change."
       ],
       [
         "Commercial agreements",
-        "Commercial contracts and NDAs, considered in the context of the transaction and business relationship."
+        "Commercial documents should reflect the relationship you intend to enter. For contracts and non-disclosure agreements, the starting point is the proposed arrangement: who is involved, what each party will do and which issues need to be addressed. Tell us whether you need a new document, a review of existing wording or support with proposed changes. We can then discuss the appropriate drafting or review scope and whether negotiation support is required."
       ],
       [
-        "Ownership & user terms",
-        "Shareholder agreements and Terms of Service, alongside the wider documentation needs of the company."
+        "Ownership & customer terms",
+        "Shareholder arrangements and customer-facing terms address different relationships within your business. We consider the ownership decisions behind a shareholder agreement separately from the product, service and user journey behind Terms of Service. The discussion starts with how the business operates and the arrangements already in place. This helps define the documents and professional input needed, including coordination with related company formation, investment or platform compliance work where relevant."
       ]
     ],
     "prepare": [
-      "The company jurisdiction and current ownership structure.",
-      "The decision, transaction or relationship requiring support.",
-      "Existing agreements, constitutional documents and relevant deadlines."
+      "The company: Its jurisdiction, ownership structure and any other group companies involved.",
+      "The task: The company change, commercial relationship or customer-facing service requiring support.",
+      "The context: Which documents already exist, the points you want addressed and any relevant deadline."
     ],
     "questions": [
       [
-        "Can you review existing documents?",
-        "Share the documents and explain the decision or transaction they relate to. The review scope can then be discussed around the specific matter."
+        "Can you help with director or shareholder changes?",
+        "Yes. We support company changes, ownership documentation and related filings through our providers according to the jurisdiction and engagement. Tell us the proposed change and the company's current arrangements. We can then discuss the documentation, local involvement and ongoing support needed for that particular matter."
       ],
       [
-        "Does this include director or shareholder changes?",
-        "Director and shareholder changes, resolutions and corporate compliance are included in the stated service scope."
+        "Can we bring an existing agreement for review?",
+        "Tell us what the agreement covers and what you need to decide before signing or changing it. This allows us to discuss a focused review scope. Drafting amendments and supporting negotiations are distinct tasks, so let us know if you need either included alongside the review."
+      ],
+      [
+        "Can the work involve more than one company?",
+        "If the matter involves a group, describe each company's role and jurisdiction. We can discuss the scope across those entities and the local input required. The engagement needs to identify which companies and documents are covered, rather than assuming work for one company extends to the entire group."
+      ],
+      [
+        "Is ongoing support available?",
+        "Yes. Ongoing filings and company maintenance can be scoped according to your needs, including coordination through our providers. Tell us which recurring tasks you want support with. A one-off document or company-change engagement remains separate from any continuing arrangement unless that work is expressly included."
       ]
     ],
-    "related": ["formation", "startup"]
+    "related": ["formation", "startup", "platform"]
   },
   "banking": {
     "title": "Banking, payments & tax advisory",
     "short": "Banking, payments & tax",
-    "intro": "Corporate structures need practical banking and payment arrangements. We advise on onboarding, payment infrastructure and tax compliance in the context of cross-border operations.",
+    "intro": "Your banking arrangements, payment flows and tax questions belong in the same conversation as your business plans. Circulox supports international founders and teams with these needs in the context of their company structure, activities and markets. Whether you are preparing to launch or addressing an existing issue, we discuss the support required and coordinate with affiliated local providers where the engagement needs their input.",
     "scope": [
       [
         "Banking & onboarding",
-        "Corporate banking assistance and payment gateway onboarding, with the company\u2019s activities and documentation considered together."
+        "We discuss corporate banking and onboarding needs alongside your ownership structure, business activities and operating markets. The starting point is what the account needs to support and how you will explain the business to a provider. Your engagement can address the company information, supporting documents and application questions relevant to that process. The preparation and coordination involved are defined within the scope; final account-opening decisions remain with the bank or provider."
       ],
       [
-        "Payment infrastructure",
-        "Advice concerning payment infrastructure, cross-border payments and the way funds move through the business."
+        "Payments & cross-border operations",
+        "Tell us how your business receives, holds and sends funds, including the currencies, customer countries and providers involved. We consider your payment arrangements in that wider context, helping identify questions to address about the business structure, onboarding or related regulatory support. If you need help with a payment gateway or another provider, we discuss that requirement specifically. The engagement reflects the advice and coordination requested, with any additional licensing work scoped separately."
       ],
       [
-        "Tax advisory & compliance",
-        "Crypto taxation and corporate tax compliance, with the relevant business structure and jurisdictions identified at the outset."
+        "Tax questions & local coordination",
+        "Tax support starts with the company, the activities involved and the countries connected to the question. We discuss what you need to resolve and the professional input required, including affiliated local provider involvement where appropriate. Advisory work, registrations, preparation of returns and ongoing filing support are separate tasks to define within the engagement. You can request tax support alongside incorporation or other services, with the work and invoicing reflecting the agreed scope."
       ]
     ],
     "prepare": [
-      "Company details, ownership and operating jurisdictions.",
-      "Your payment flows, currencies and customer markets.",
-      "Current banking arrangements and the specific tax or onboarding issue."
+      "Your company: Ownership, business activities and the jurisdictions involved.",
+      "Your transactions: Where customers are located, currencies used and how funds move between the parties.",
+      "Your question: Current banking or payment arrangements, any provider requests and the specific onboarding or tax issue you want to address."
     ],
     "questions": [
       [
-        "What information is useful for onboarding support?",
-        "Company and ownership documents, a description of activities and an outline of transaction flows are useful starting materials."
+        "Can this be included with company incorporation?",
+        "Yes. Banking and tax support can be scoped alongside incorporation where you need them, with payment-related needs discussed as part of the same operating plan. The engagement and invoicing reflect the services requested. Formation work alone does not mean every banking application, tax task or ongoing service is included."
       ],
       [
-        "Can banking and tax questions be discussed together?",
-        "Both are within the service scope. Describe the whole operating structure so the relevant questions can be identified together."
+        "What information helps with a banking or payment enquiry?",
+        "A description of your activities, ownership, customers and expected transaction flows gives us a starting point. Tell us what you need the account or provider to support and whether you have already applied. If a provider has raised questions, describe those too so we can discuss the relevant support."
+      ],
+      [
+        "Can you help with a business operating across several countries?",
+        "We focus on cross-border work. Explain which companies, markets and providers are involved, and where the issue arises. We can then discuss the scope and any local professional input needed. The work is defined for the countries and arrangements involved in your engagement, rather than assumed to cover every market."
+      ],
+      [
+        "How is tax work scoped?",
+        "We start with the question you need answered and the relevant company and jurisdictions. Tell us whether you need advice, help with a registration or filing, or recurring support. The engagement needs to specify which tasks are included, who will deliver them and any local provider coordination required."
       ]
     ],
-    "related": ["formation", "regulation"]
+    "related": ["formation", "regulation", "governance"]
   },
   "startup": {
     "title": "Startup & investment advisory",
     "short": "Startup & investment",
-    "intro": "Funding decisions affect ownership, governance and the next stage of the business. We support startups with fundraising documents, equity structures and investment arrangements.",
+    "intro": "Preparing for investment brings decisions about your company, its ownership and the terms on which new stakeholders join. Circulox supports international founders with legal and structuring questions as their businesses develop. We consider your stage, existing arrangements and proposed transaction together, helping define the documentation and coordination your next step needs. The engagement reflects your business, the jurisdictions involved and the support you request.",
     "scope": [
       [
         "Fundraising documentation",
-        "Support with fundraising documents, including SAFE and SAFT agreements, in the context of the proposed round."
+        "A proposed investment starts with the parties, the terms being discussed and the company receiving the funds. We discuss the documents required in that context, including any investor drafts already in circulation. Preparing documents, reviewing proposed terms and supporting negotiations are distinct tasks to define within the engagement. The starting point is the transaction you intend to carry out, with the appropriate professional input considered for the company and jurisdictions involved."
       ],
       [
-        "Equity structuring",
-        "Advice on equity structures and ownership arrangements for the company and its stakeholders."
+        "Equity & founder arrangements",
+        "Your current ownership structure provides the starting point for a conversation about investment. Tell us who owns the company, what arrangements exist between founders and which changes you are considering. We discuss the ownership documentation and company support needed for the proposed next step. Where the work involves company changes or filings, those tasks and any local provider involvement are identified within the scope, alongside the investment-related work."
       ],
       [
-        "Investment vehicles & support",
-        "Investment vehicles and continuing startup legal support as the business develops."
+        "Investment structures & continuing support",
+        "Some matters involve a single company; others involve several entities with different roles. We consider the proposed investment structure alongside your existing group, the company receiving funds and your intended operations. Company formation and ownership documentation can be coordinated with the wider engagement where needed. Continuing support is agreed around the work you request as the business develops, with recurring company maintenance distinguished from a specific transaction or document engagement."
       ]
     ],
     "prepare": [
-      "The company\u2019s stage and existing ownership structure.",
-      "The intended round, proposed investment and key terms.",
-      "Current agreements, cap table and any investor documentation."
+      "Your starting point: The company's stage, jurisdiction and current ownership, including any other group entities involved.",
+      "Your plans: The proposed investment, parties involved, key terms being discussed and relevant timeline.",
+      "Existing arrangements: Your ownership summary or cap table, founder agreements and any investor documents already available."
     ],
     "questions": [
       [
-        "When is it useful to involve legal counsel?",
-        "An initial discussion can focus on the proposed round, ownership structure and documents already in circulation."
+        "Can we speak with you before receiving investor documents?",
+        "Yes. Describe the business, its ownership and the investment you are considering. You do not need a completed set of documents to begin the discussion. We can consider the questions you need answered and define the support relevant to your stage, including any company formation or ownership documentation needs."
       ],
       [
-        "Can support extend beyond a funding round?",
-        "The service scope includes continuing startup legal support as well as fundraising documents and investment structures."
+        "What if we already have proposed terms or an investor draft?",
+        "Tell us which documents you have received, what has already been agreed and which points remain open. This gives the scope discussion a clear starting point. A document review, proposed amendments and negotiation support involve different work, so the engagement should identify the tasks and professional input required."
+      ],
+      [
+        "Can the matter involve founders or investors in different countries?",
+        "Cross-border work is central to our approach. Describe where the company, founders and proposed investors are based, along with any other entities involved. We can then discuss the scope and affiliated local provider input needed for that matter. The engagement is defined around those arrangements and jurisdictions."
+      ],
+      [
+        "Can support continue after the transaction?",
+        "Continuing company support can be agreed according to your needs, including ownership documentation, ongoing filings and provider coordination. Let us know which tasks you want included after the immediate work. A transaction engagement does not automatically cover future documents or recurring services; these are identified within the agreed scope."
       ]
     ],
-    "related": ["governance", "formation"]
+    "related": ["governance", "formation", "regulation"]
   },
   "ip": {
     "title": "Intellectual property",
     "short": "Intellectual property",
-    "intro": "A brand, creative work or commercial agreement can carry lasting value. We support businesses with trademark registration, copyright, brand protection and IP agreements.",
+    "intro": "Your brand, creative work and product can be central to your business. Circulox helps founders discuss the protection and ownership arrangements these assets need, connecting trademark, copyright and agreement-related questions with their wider plans. Whether you are preparing a launch, entering new markets or clarifying an existing arrangement, we start with the asset, the parties involved and the support required in the relevant jurisdictions.",
     "scope": [
       [
         "Trademark registration",
-        "Support with trademark registration for the brand and the jurisdictions relevant to the business."
+        "A trademark enquiry starts with the name or logo, the products or services behind it and the markets that matter to your business. We discuss the registration support you need in that context, including any existing applications or registrations. The engagement identifies the jurisdictions and stages of work involved, with local professional input considered where needed. Searches, application work and responses to issues raised during review should each be identified in the scope rather than assumed to form one package."
       ],
       [
         "Copyright & brand protection",
-        "Advice concerning copyright and the protection of business identity and creative work."
+        "Tell us about the work or business identity you want to protect, who created it and how it is used. This might involve product content, designs or other creative material connected to your business. The starting point is understanding the asset and the concern: ownership, permitted use or a possible conflict. We can then discuss the appropriate advice and coordination for the matter, including whether related documentation or dispute support needs to be considered separately."
       ],
       [
-        "IP agreements",
-        "Intellectual property agreements connected to ownership, use and commercial relationships."
+        "Ownership & IP agreements",
+        "Your documents should reflect who is intended to own an asset and how others may use it. We discuss the arrangements between your company, founders, employees, contractors and commercial partners in the context of the work involved. Tell us whether you need to address ownership, permission to use material or an existing agreement. Drafting, review and negotiation are distinct tasks to define within the engagement, with any local input considered according to the jurisdictions involved."
       ]
     ],
     "prepare": [
-      "The name, brand or work you want to protect.",
-      "Relevant markets and any existing registrations or applications.",
-      "Ownership information and agreements concerning the IP."
+      "The asset: The name, logo, product content or other work involved, and how the business uses it.",
+      "The markets: Where you operate or plan to launch, alongside any existing applications or registrations.",
+      "The arrangements: Who created the asset, who is intended to own it and which agreements or correspondence already exist."
     ],
     "questions": [
       [
-        "What should we share about the brand?",
-        "The proposed or existing name, associated products or services, target markets and any prior applications provide a useful starting point."
+        "What information is useful for a trademark enquiry?",
+        "Start with the name or logo, the products or services it represents and the markets where you use or intend to use it. Tell us about any existing applications, registrations or concerns raised by another party. This helps focus the discussion on the registration-related support and professional input you need."
       ],
       [
-        "Does the service include agreements?",
-        "Yes. Intellectual property agreements are part of the stated scope, alongside registration and brand protection."
+        "Can we discuss ownership before signing an agreement?",
+        "Yes. Explain who created or will create the work, which company will use it and what the parties intend to agree. If a draft already exists, describe the points you want addressed. We can then discuss the scope of advice, documentation or review appropriate to that arrangement."
+      ],
+      [
+        "What if our business operates in several countries?",
+        "Tell us which markets are involved and where you plan to use the asset. The scope can then be discussed around those markets and any local professional input required. Coverage should be defined for the engagement; a request involving one country should not be treated as work covering every market."
+      ],
+      [
+        "What if we have already received a notice or objection?",
+        "Describe who sent it, the asset or application involved and any stated deadline. The next step depends on the issue, jurisdiction and response required. We can discuss the appropriate support and whether the matter needs a separate dispute engagement or specialist local input before agreeing the work."
       ]
     ],
-    "related": ["governance", "disputes"]
+    "related": ["governance", "disputes", "startup"]
   },
   "disputes": {
     "title": "Legal notices & dispute resolution",
     "short": "Notices & dispute resolution",
-    "intro": "A clear account of the facts and correspondence is the starting point for a dispute. We support businesses with legal notices, platform disputes and pre-litigation advisory.",
+    "intro": "A business dispute needs attention to the facts, the correspondence and what you want to achieve. Circulox helps international founders and teams discuss legal notices, platform disputes and questions arising before formal proceedings. Whether you have received a notice or are considering raising an issue, we start with the matter, the parties and the jurisdictions involved to define the support required.",
     "scope": [
       [
-        "Legal notices",
-        "Advice and support concerning legal notices and the correspondence surrounding a business dispute."
+        "Legal notices & responses",
+        "Preparing a notice and responding to one begin from different positions. Tell us what happened, what has already been communicated and what outcome you are seeking. We discuss the relevant agreements, facts and correspondence before defining the advice or drafting support needed. If you have received a notice, highlight any deadline stated in it. The scope identifies the work involved and any local professional input required for the matter."
       ],
       [
         "Platform disputes",
-        "Support with platform disputes and regulatory representations, shaped around the issue and relevant documents."
+        "A platform issue needs to be understood in the context of the product, account or service involved and the correspondence already exchanged. For App Store and Google Play matters, our support includes compliance review, rejection responses and appeals. Where the issue involves a wider commercial disagreement or a regulatory request, describe it separately so we can discuss the appropriate scope. The work should reflect the specific issue and the response being considered."
       ],
       [
         "Pre-litigation advisory",
-        "Advice before litigation, considering the specific matter, available information and the business context."
+        "Before a matter moves into formal proceedings, we discuss the facts, documents and business priorities relevant to your next decision. The starting point includes what each party is seeking, the correspondence to date and any existing dispute terms in the agreement. Advice, drafting, negotiation support and formal representation are different tasks to define within the engagement. Where specialist or local input is needed, we discuss that involvement as part of the scope."
       ]
     ],
     "prepare": [
-      "A brief chronology, key dates and the issue requiring attention.",
-      "Relevant contracts, notices and correspondence.",
-      "The parties involved and the outcome you are seeking."
+      "The chronology: What happened and when, including key communications and any stated deadlines.",
+      "The documents: Which contracts, notices, platform messages or other records relate to the issue. Keep the original correspondence available for review.",
+      "The objective: Who is involved, which countries are connected to the matter and what outcome you are seeking."
     ],
     "questions": [
       [
-        "What should we send before the first discussion?",
-        "A short chronology and the original correspondence are useful. Highlight any deadlines already stated in notices or agreements."
+        "Can we discuss a notice we have already received?",
+        "Yes. Tell us who sent it, what it concerns and any deadline stated in the notice. Explain the background and any response already given. We can then discuss the advice, document work and local professional input appropriate to the matter before agreeing the support available."
       ],
       [
-        "Is this service limited to court proceedings?",
-        "The stated scope includes legal notices, platform disputes, regulatory representations and pre-litigation advisory."
+        "Can you help with App Store or Google Play disputes?",
+        "Yes. We support compliance reviews, rejection responses and appeals for both platforms. Describe the app, the exact issue raised and the correspondence so far. If the matter also involves a separate commercial or regulatory issue, tell us so the additional work can be discussed and scoped accordingly."
+      ],
+      [
+        "Does the engagement include court representation?",
+        "Court representation must be expressly discussed and agreed for the relevant matter and jurisdiction. A notice, platform response or pre-litigation engagement does not automatically include proceedings. The scope needs to identify the professionals involved and any separate representation, filing or local coordination required before that work is undertaken."
+      ],
+      [
+        "How should we flag a deadline?",
+        "Include the exact date, who set it and where it appears when you first contact us. This helps us discuss the work and timing involved. Availability and acceptance of deadline-sensitive work need confirmation from our team; sending an enquiry or booking a call does not confirm that the matter has been accepted."
       ]
     ],
-    "related": ["governance", "ip"]
+    "related": ["governance", "ip", "platform"]
   }
 }

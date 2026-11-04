@@ -1,58 +1,70 @@
+import Link from "next/link";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { About, Conversation } from "@/components/home-sections";
+import { CopyBlocks } from "@/components/editorial-content";
+import copy from "@/data/page-copy.json";
+import { bookingUrl } from "@/lib/site";
+const page = copy.firm;
 export const metadata = {
-  title: "The firm",
-  description:
-    "Circulox is an international legal and business advisory firm for startups, fintech, Web3 businesses and established enterprises.",
+  title: { absolute: page.seo.title },
+  description: page.seo.description,
   alternates: { canonical: "/firm" },
 };
 export default function Firm() {
+  const [experience, approach, delivery, work, contact] = page.sections;
   return (
-    <div className="inner-page">
+    <div className="inner-page editorial-page firm-page">
       <Header />
       <main id="main">
         <section className="shell hero">
           <div className="hero-copy">
-            <div className="eyebrow">The firm</div>
-            <h1>
-              An international perspective.
-              <br />A practical understanding of business.
-            </h1>
-            <p>
-              Circulox works with startups, fintech companies, Web3 businesses
-              and established enterprises on legal, regulatory, corporate and
-              operational matters.
-            </p>
+            <div className="eyebrow">{page.eyebrow}</div>
+            <h1>{page.heading}</h1>
+            <p>{page.intro}</p>
           </div>
         </section>
         <section className="scope">
           <div className="shell split">
-            <h2>Advice connected to your business.</h2>
+            <h2>{experience.heading}</h2>
+            <CopyBlocks blocks={experience.blocks} />
+          </div>
+        </section>
+        <section className="shell firm-approach">
+          <div>
+            <h2>{approach.heading}</h2>
+            <CopyBlocks blocks={approach.blocks} />
+          </div>
+          <div>
+            <h2>{delivery.heading}</h2>
+            <CopyBlocks blocks={delivery.blocks} />
+          </div>
+        </section>
+        <section className="prepare">
+          <div className="shell split">
+            <h2>{work.heading}</h2>
             <div>
-              <p>
-                We consider company structure, product design, regulation and
-                day-to-day operations together. Each engagement starts with your
-                business, the markets involved and the decision you need to
-                make.
-              </p>
-              <p>
-                Our areas of work include international incorporation, digital
-                finance regulation, technology compliance, governance,
-                intellectual property, banking, investment and dispute
-                resolution.
-              </p>
+              <CopyBlocks blocks={work.blocks} />
+              <Link className="text-link" href="/#expertise">
+                Explore our expertise
+              </Link>
             </div>
           </div>
         </section>
-        <section className="shell prepare" id="team">
-          <div className="eyebrow">Our approach</div>
-          <h2>A focused starting point.</h2>
-          <p className="section-intro">
-            Share your activities, ownership, operating markets and the question
-            in front of you. We can then discuss the appropriate scope of
-            support.
-          </p>
+        <section className="contact">
+          <div className="shell split">
+            <h2>{contact.heading}</h2>
+            <div>
+              <p>{contact.blocks[0].text}</p>
+              <a
+                className="button"
+                href={bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book a call
+              </a>
+            </div>
+          </div>
         </section>
       </main>
       <Footer />

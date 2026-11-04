@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { BrandLogo } from "./brand-logo";
+import { generalEmail, contactEmail, ukAddress } from "@/lib/site";
 export function Footer({ home = false }: { home?: boolean }) {
-  return home ? (
-    <footer className="footer shell">
+  return (
+    <footer className={`footer shell site-footer${home ? " home-footer" : ""}`}>
       <div className="footer-top">
         <Link href="/" className="wordmark">
           <BrandLogo />
@@ -14,19 +15,27 @@ export function Footer({ home = false }: { home?: boolean }) {
           <Link href="/contact">Contact</Link>
         </nav>
       </div>
+      <div className="footer-contact">
+        <div>
+          <span>Speak with Circulox</span>
+          <a href={`mailto:${generalEmail}`}>{generalEmail}</a>
+          <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
+        </div>
+        <div>
+          <span>UK address</span>
+          <address>
+            {ukAddress.map((line) => (
+              <span key={line}>{line}</span>
+            ))}
+          </address>
+        </div>
+      </div>
       <div className="footer-bottom">
         <p>
           International legal &amp; business advisory. Engagement scope and
           jurisdiction-specific requirements are considered for each matter.
         </p>
       </div>
-    </footer>
-  ) : (
-    <footer className="shell footer">
-      <Link href="/" className="wordmark">
-        <BrandLogo />
-      </Link>
-      <p>International legal &amp; business advisory.</p>
     </footer>
   );
 }

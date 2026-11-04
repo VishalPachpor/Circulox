@@ -3,43 +3,43 @@
     "key": "united-states",
     "label": "United States",
     "name": "United States",
-    "intro": "Discuss a US entity in the context of your founders, customers, investors and international operations.",
+    "intro": "Consider a US company alongside your founder locations, customer markets, investment plans and wider international structure.",
     "focus": [
       "State and entity choice",
       "Ownership and investment",
       "Banking and ongoing compliance"
     ],
-    "mobileIntro": "Formation and ownership for a US company with international operations."
+    "mobileIntro": "Company formation and ownership for businesses with international plans."
   },
   {
     "key": "united-kingdom",
     "label": "United Kingdom",
     "name": "United Kingdom",
-    "intro": "Consider a UK company alongside your ownership arrangements, operating markets and wider business structure.",
+    "intro": "Assess how a UK company would fit your operating plans, ownership arrangements and relationships with customers and investors.",
     "focus": [
       "Formation and ownership",
       "UK and international operations",
       "Governance and agreements"
     ],
-    "mobileIntro": "Formation, ownership and governance for a UK company."
+    "mobileIntro": "Company formation, ownership and governance in the UK."
   },
   {
     "key": "uae",
     "label": "UAE",
     "name": "United Arab Emirates",
-    "intro": "Discuss your proposed activities and operating location before defining the company and ownership structure.",
+    "intro": "Start with your proposed activities and operating location to assess the company structure, licensing questions and practical support your business needs.",
     "focus": [
       "Location and business activities",
       "Company and ownership structure",
-      "Banking and payment needs"
+      "Licensing and banking needs"
     ],
-    "mobileIntro": "Company structure, activities and operating plans in the UAE."
+    "mobileIntro": "Company structure and licensing considerations for UAE operations."
   },
   {
     "key": "singapore",
     "label": "Singapore",
     "name": "Singapore",
-    "intro": "Consider a Singapore company in the context of regional operations, ownership and international business relationships.",
+    "intro": "Consider a Singapore company in the context of your regional activities, ownership structure and wider international business relationships.",
     "focus": [
       "Operating footprint",
       "Company and group structure",
@@ -51,37 +51,37 @@
     "key": "bvi",
     "label": "BVI",
     "name": "British Virgin Islands",
-    "intro": "Discuss holding companies, SPVs and ownership arrangements as part of your wider international structure.",
+    "intro": "Assess the role of a holding company or special-purpose vehicle within your wider ownership, investment and business arrangements.",
     "focus": [
-      "Holding companies and SPVs",
+      "Holding companies and special-purpose vehicles",
       "Ownership and investment",
       "Corporate governance"
     ],
-    "mobileIntro": "Holding companies, SPVs and international ownership structures."
+    "mobileIntro": "Holding companies and ownership structures within an international group."
   },
   {
     "key": "cayman",
     "label": "Cayman Islands",
     "name": "Cayman Islands",
-    "intro": "Consider a Cayman structure alongside the purpose of the vehicle, its stakeholders and the wider group.",
+    "intro": "Explore a proposed holding or investment structure in the context of its purpose, stakeholders and relationships within the wider group.",
     "focus": [
       "Holding and investment structures",
-      "SPVs and group relationships",
+      "Group relationships",
       "Governance and documentation"
     ],
-    "mobileIntro": "Holding and investment structures within your wider group."
+    "mobileIntro": "Holding and investment structures shaped around your business objectives."
   },
   {
     "key": "seychelles",
     "label": "Seychelles",
     "name": "Seychelles",
-    "intro": "Start with the purpose of the company, proposed activities and the role it will play within the business.",
+    "intro": "Define the purpose of the company, its proposed activities and its place in your business before assessing formation and ongoing support.",
     "focus": [
       "Company purpose and activities",
       "Ownership and group structure",
       "Corporate records and compliance"
     ],
-    "mobileIntro": "Company formation, ownership and governance in context."
+    "mobileIntro": "Company formation and ownership considered alongside your business activities."
   },
   {
     "key": "india",

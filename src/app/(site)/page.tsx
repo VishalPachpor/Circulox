@@ -1,3 +1,4 @@
+import copy from "@/data/page-copy.json";
 import Link from "next/link";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -11,7 +12,11 @@ import { Jurisdictions } from "@/components/jurisdictions";
 import { SocialPosts } from "@/components/social-posts";
 import { ClientShowcase } from "@/components/client-showcase";
 import { getPosts } from "@/lib/posts";
-export const metadata = { alternates: { canonical: "/" } };
+export const metadata = {
+  title: { absolute: copy.homepage.seo.title },
+  description: copy.homepage.seo.description,
+  alternates: { canonical: "/" },
+};
 export default async function Home() {
   const posts = await getPosts(3);
   return (
@@ -27,12 +32,17 @@ export default async function Home() {
           <div className="insights-heading">
             <div>
               <div className="section-label">Insights &amp; guides</div>
-              <h2>Perspectives.</h2>
+              <h2>Perspectives for the decisions ahead.</h2>
             </div>
             <Link className="link" href="/insights">
               Explore all insights
             </Link>
           </div>
+          <p className="insights-introduction">
+            Explore legal and business questions around building and operating
+            internationally, from company structures and licensing to technology
+            compliance.
+          </p>
           {posts.length ? (
             <div className="journal-home">
               {posts.slice(0, 3).map((post) => (
@@ -58,8 +68,8 @@ export default async function Home() {
             </div>
           ) : (
             <p className="empty-insights">
-              Legal and business perspectives from the Circulox team. New
-              articles will appear here as they are published.
+              Our first insights and guides will appear here as they are
+              published.
             </p>
           )}
         </section>

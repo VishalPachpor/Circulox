@@ -16,7 +16,7 @@ export function ResponsiveDetails({
       if (ref.current) {
         ref.current.open = !media.matches;
         const summary = ref.current.querySelector("summary");
-        if (summary && className === "faq-item") {
+        if (summary && className.split(" ").includes("faq-item")) {
           summary.tabIndex = media.matches ? 0 : -1;
           if (media.matches) {
             summary.removeAttribute("role");
@@ -38,7 +38,7 @@ export function ResponsiveDetails({
       className={className}
       onKeyDown={(e) => {
         if (
-          className === "faq-item" &&
+          className.split(" ").includes("faq-item") &&
           !matchMedia("(max-width:560px)").matches &&
           ["Enter", " "].includes(e.key)
         )

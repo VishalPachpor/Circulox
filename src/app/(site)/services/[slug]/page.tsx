@@ -1,3 +1,4 @@
+import copy from "@/data/page-copy.json";
 import { notFound } from "next/navigation";
 import { DetailPage } from "@/components/detail-page";
 import services from "@/data/services.json";
@@ -13,8 +14,8 @@ export async function generateMetadata({
   const item = services[slug as keyof typeof services];
   return item
     ? {
-        title: item.title,
-        description: item.intro,
+        title: { absolute: copy[slug as keyof typeof copy].seo.title },
+        description: copy[slug as keyof typeof copy].seo.description,
         alternates: { canonical: `/services/${slug}` },
       }
     : { title: "Page not found" };
@@ -27,7 +28,5 @@ export default async function Page({
   const { slug } = await params;
   const item = services[slug as keyof typeof services];
   if (!item) notFound();
-  return (
-    <DetailPage content={item} index={Object.keys(services).indexOf(slug)} />
-  );
+  return <DetailPage content={copy[slug as keyof typeof copy]} />;
 }

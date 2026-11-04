@@ -18,8 +18,9 @@ export function Jurisdictions() {
             business be based?
           </h2>
           <p>
-            We consider your activities, ownership, banking needs and operating
-            markets together.
+            We consider your activities, founder locations, customers, investors
+            and banking needs together, helping you assess jurisdictions in the
+            context of how you plan to operate.
           </p>
           <Link className="link" href="/services/formation">
             What to consider before choosing
