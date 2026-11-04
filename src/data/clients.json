@@ -5,15 +5,15 @@
     "logo": "/clients/lighter.svg",
     "width": 22,
     "height": 40,
-    "monochrome": true
+    "treatment": "solid"
   },
   {
     "name": "Invo",
     "url": "https://www.invoapp.com/",
-    "logo": "/clients/invo.webp",
-    "width": 40,
-    "height": 40,
-    "monochrome": false
+    "logo": "/clients/invo-wordmark.svg",
+    "width": 88,
+    "height": 35,
+    "treatment": "solid"
   },
   {
     "name": "Entropy",
@@ -21,23 +21,23 @@
     "logo": "/clients/entropy.svg",
     "width": 40,
     "height": 40,
-    "monochrome": true
+    "treatment": "solid"
   },
   {
     "name": "QFEX",
     "url": "https://www.qfex.com/",
-    "logo": "/clients/qfex.svg",
+    "logo": "/clients/qfex-mark.svg",
     "width": 40,
     "height": 40,
-    "monochrome": false
+    "treatment": "solid"
   },
   {
     "name": "Wick",
     "url": "https://wick.trade/",
     "logo": "/clients/wick.svg",
-    "width": 40,
-    "height": 40,
-    "monochrome": false
+    "width": 44,
+    "height": 36,
+    "treatment": "solid"
   },
   {
     "name": "Umbra",
@@ -45,23 +45,23 @@
     "logo": "/clients/umbra.svg",
     "width": 130,
     "height": 30,
-    "monochrome": false
+    "treatment": "solid"
   },
   {
     "name": "Superteam Black",
     "url": "https://www.superteamblack.com/",
     "logo": "/clients/superteam-black.svg",
-    "width": 40,
+    "width": 44,
     "height": 40,
-    "monochrome": false
+    "treatment": "solid"
   },
   {
     "name": "Dope",
     "url": "https://dopepay.me/",
-    "logo": "/clients/dope.webp",
-    "width": 40,
-    "height": 40,
-    "monochrome": false
+    "logo": "/clients/dope-wordmark.svg",
+    "width": 112,
+    "height": 28,
+    "treatment": "solid"
   },
   {
     "name": "Airaa",
@@ -69,7 +69,7 @@
     "logo": "/clients/airaa.svg",
     "width": 124,
     "height": 32,
-    "monochrome": true
+    "treatment": "solid"
   },
   {
     "name": "Juicy Labs",
@@ -77,7 +77,7 @@
     "logo": "/clients/juicy-labs.webp",
     "width": 40,
     "height": 40,
-    "monochrome": false
+    "treatment": "juiceBackdrop"
   },
   {
     "name": "Smart Jelly",
@@ -85,15 +85,15 @@
     "logo": "/clients/smart-jelly.webp",
     "width": 40,
     "height": 40,
-    "monochrome": false
+    "treatment": "solid"
   },
   {
     "name": "EVORA",
     "url": "https://www.evoracharge.com/",
-    "logo": "/clients/evora.svg",
+    "logo": "/clients/evora-mark.svg",
     "width": 40,
     "height": 40,
-    "monochrome": false
+    "treatment": "solid"
   },
   {
     "name": "Herodotus",
@@ -101,23 +101,23 @@
     "logo": "/clients/herodotus.svg",
     "width": 142,
     "height": 26,
-    "monochrome": true
+    "treatment": "solid"
   },
   {
     "name": "Brightside",
     "url": "https://x.com/brightside_gg",
     "logo": "/clients/brightside.webp",
-    "width": 40,
-    "height": 40,
-    "monochrome": false
+    "width": 42,
+    "height": 42,
+    "treatment": "lightBackdrop"
   },
   {
     "name": "Send Arcade",
     "url": "https://x.com/sendarcadefun",
-    "logo": "/clients/send-arcade.webp",
-    "width": 40,
-    "height": 40,
-    "monochrome": false
+    "logo": "/clients/send-arcade-mark.png",
+    "width": 42,
+    "height": 42,
+    "treatment": "lightBackdrop"
   },
   {
     "name": "Paystream",
@@ -125,6 +125,6 @@
     "logo": "/clients/paystream.webp",
     "width": 40,
     "height": 40,
-    "monochrome": false
+    "treatment": "darkBackdrop"
   }
 ]

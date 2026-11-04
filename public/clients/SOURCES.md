@@ -19,3 +19,14 @@ Original client website assets or official X profile images, retrieved 2 Novembe
 - **Godpack**: https://pbs.twimg.com/profile_images/2104007571078078464/bW45KWCm_400x400.jpg 
 - **Send Arcade**: https://pbs.twimg.com/profile_images/1819622820025921536/svFcY9Qp_400x400.jpg 
 - **Paystream**: https://pbs.twimg.com/profile_images/1975018741122342912/oMlYU0cG_400x400.jpg 
+
+## Consistent monochrome presentation · 4 November 2026
+
+Lighter is the visual reference: standalone artwork, transparent/paper background, one ink tone, original proportions, and balanced optical size. The 16 approved clients and destination URLs are unchanged. The carousel continues to move without a pause control.
+
+- Invo: official inline vector wordmark from https://www.invoapp.com/ (`Invo-Logo`), replacing its 3D app icon.
+- Dope: official `/assets/shared/logo-{base,o,p,e,dot-1,dot-2}.svg` layers from https://dopepay.me/, composed at the exact positions used by the site's navigation logo.
+- QFEX: original official SVG paths from `/icons/brand/qfex-logo-in-square.svg`; omitted the square app background and tightened the SVG viewBox.
+- EVORA: original paths from https://www.evoracharge.com/brand/evora-icon.svg; omitted the orange rectangle and tightened the viewBox around the brand artwork.
+- Send Arcade: transparent official https://sendarcade.fun/sendarcade-logo.png, replacing the square X avatar.
+- Remaining approved artwork retains the sources above. CSS ink/backdrop treatments avoid coloured canvases without AI-redrawing the brands. Juicy Labs, Smart Jelly, Brightside and Paystream retain their original supplied raster geometry; flat master vectors were not invented.

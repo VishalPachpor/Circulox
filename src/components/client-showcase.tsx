@@ -29,9 +29,7 @@ export function ClientShowcase() {
                       width={client.width}
                       height={client.height}
                       loading="eager"
-                      className={
-                        client.monochrome ? styles.monochrome : undefined
-                      }
+                      className={styles[client.treatment]}
                     />
                     <span className={styles.srOnly}> (opens in a new tab)</span>
                   </a>
@@ -50,9 +48,7 @@ export function ClientShowcase() {
                     width={client.width}
                     height={client.height}
                     loading="eager"
-                    className={
-                      client.monochrome ? styles.monochrome : undefined
-                    }
+                    className={styles[client.treatment]}
                   />
                 </span>
               ))}

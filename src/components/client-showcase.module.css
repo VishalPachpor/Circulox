@@ -32,6 +32,8 @@
   );
 }
 .track {
+  /* The animated transform isolates blending: raster knockouts need paper here. */
+  background: var(--surface-soft, #eee8de);
   display: flex;
   width: max-content;
   animation: clients-drift 42s linear infinite;
@@ -70,12 +72,28 @@
   display: block;
   flex-shrink: 0;
   object-fit: contain;
-  filter: grayscale(1);
   opacity: 0.78;
   transition: opacity 160ms ease;
 }
-.group img.monochrome {
+/* Match Lighter's standalone ink treatment, without changing brand geometry.
+   The two backdrop variants preserve the original raster artwork while making
+   its white/black avatar canvas blend into the section's paper surface. */
+.group img.solid {
   filter: brightness(0);
+}
+.group img.lightBackdrop {
+  filter: grayscale(1) invert(1) brightness(3) invert(1);
+  mix-blend-mode: multiply;
+}
+.group img.darkBackdrop {
+  filter: grayscale(1) contrast(8) invert(1);
+  mix-blend-mode: multiply;
+  transform: scale(1.8);
+}
+.group img.juiceBackdrop {
+  filter: grayscale(1) contrast(2.8) invert(1);
+  mix-blend-mode: multiply;
+  transform: scale(1.4);
 }
 .group a:hover img,
 .group a:focus-visible img {
