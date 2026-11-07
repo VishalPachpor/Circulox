@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { BrandLogo } from "./brand-logo";
-import { generalEmail, contactEmail, ukAddress } from "@/lib/site";
+import { generalEmail, ukAddress } from "@/lib/site";
 export function Footer({ home = false }: { home?: boolean }) {
   return (
     <footer className={`footer shell site-footer${home ? " home-footer" : ""}`}>
@@ -19,10 +19,9 @@ export function Footer({ home = false }: { home?: boolean }) {
         <div>
           <span>Speak with Circulox</span>
           <a href={`mailto:${generalEmail}`}>{generalEmail}</a>
-          <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
         </div>
         <div>
-          <span>UK address</span>
+          <span>Our Address</span>
           <address>
             {ukAddress.map((line) => (
               <span key={line}>{line}</span>

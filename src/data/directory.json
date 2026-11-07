@@ -35,6 +35,11 @@
     "region": "Indian Ocean"
   },
   {
+    "slug": "hong-kong",
+    "name": "Hong Kong",
+    "region": "Asia"
+  },
+  {
     "slug": "india",
     "name": "India",
     "region": "Asia"

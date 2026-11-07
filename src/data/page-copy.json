@@ -1195,8 +1195,8 @@
   },
   "homepage": {
     "eyebrow": "International legal & business advisory",
-    "heading": "Establish your business. Navigate what comes next.",
-    "intro": "Cross-border legal and compliance solutions for startups building and operating internationally. We support founders in fintech, trading, crypto, Web3, AI, and other emerging sectors, providing clear, practical guidance to help them navigate complex regulatory requirements and build with confidence.",
+    "heading": "Build across borders.",
+    "intro": "Company formation, licensing, app compliance and ongoing legal support for founders in fintech, crypto and emerging technology.",
     "mobileIntro": "",
     "seo": {
       "title": "Circulox | Cross-Border Legal & Startup Compliance",
@@ -2328,6 +2328,7 @@
               "British Virgin Islands → /jurisdictions/bvi",
               "Cayman Islands → /jurisdictions/cayman",
               "Seychelles → /jurisdictions/seychelles",
+              "Hong Kong → /jurisdictions/hong-kong",
               "India → /jurisdictions/india"
             ]
           }
@@ -2559,6 +2560,181 @@
           {
             "type": "paragraph",
             "text": "General information. Requirements depend on the company, activities and circumstances. [Ministry of Corporate Affairs — incorporation guidance](https://www.mca.gov.in/Ministry/pdf/SpicePlusFAQS_12032021.pdf)."
+          }
+        ]
+      }
+    ]
+  },
+  "hong-kong": {
+    "eyebrow": "Hong Kong · Company formation & structuring",
+    "heading": "Hong Kong company formation for international founders.",
+    "intro": "A Hong Kong company should have a clear role in your business, whether you are building regional operations, organising ownership or assessing a digital-asset product. Circulox supports founders considering formation and cross-border structuring, with local provider coordination where needed. We discuss your company, activities and target markets together, keeping registration, banking, tax and any financial regulatory work distinct within the engagement.",
+    "mobileIntro": "Hong Kong company formation starts with your activities, ownership and regional plans. Circulox coordinates agreed formation and local provider support, with secretary arrangements, company records and ongoing services identified in the engagement. Banking, tax and any financial regulatory permissions need their own assessment and scope.",
+    "seo": {
+      "title": "Hong Kong Company Formation & Crypto Structuring | Circulox",
+      "description": "Hong Kong company formation for international founders. Discuss ownership, company secretary arrangements and separately scoped crypto regulatory support."
+    },
+    "sections": [
+      {
+        "label": "When to consider this jurisdiction",
+        "heading": "Connect your Asia plans with the right structure.",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "You may be assessing Hong Kong for customer relationships, a regional operating company or a role within an international group. Begin with what the entity will do: who it will contract with, which assets it will own and where the team will make decisions. An investor or partner request is useful context, but the formation plan should also reflect the company’s day-to-day needs."
+          },
+          {
+            "type": "paragraph",
+            "text": "For crypto and Web3 founders, Hong Kong is relevant to assess because it has a dedicated licensing framework for virtual asset trading platforms. That framework concerns a specific activity; it does not mean every crypto product follows the same route. Explain the product, customers and movement of assets before deciding what regulatory input is needed. [SFC virtual asset platform guidance](https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators)."
+          }
+        ]
+      },
+      {
+        "label": "Decisions before formation",
+        "heading": "What to assess before registering.",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Directors, secretary and registered office"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Companies Registry says non-residents may incorporate a local limited company. A private company needs a company secretary and at least one individual director; directors need not be Hong Kong residents. A company secretary who is an individual must ordinarily reside in Hong Kong, while a corporate secretary needs its registered or principal office there. Discuss the local secretary and registered office arrangements alongside the proposed ownership. [Companies Registry incorporation FAQs](https://www.cr.gov.hk/en/faq/local-company/incorporation.htm)."
+          },
+          {
+            "type": "heading",
+            "text": "Ownership information and company records"
+          },
+          {
+            "type": "paragraph",
+            "text": "Map the proposed shareholders and the people who ultimately control the company. The Companies Registry describes requirements for applicable companies to keep a Significant Controllers Register. Determine the treatment and designated representative arrangements for the particular entity with the local provider rather than treating registration as an anonymous ownership service. [Significant Controllers Register overview](https://www.cr.gov.hk/en/legislation/scr/overview.htm)."
+          },
+          {
+            "type": "heading",
+            "text": "Incorporation, business registration and financial permissions"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Inland Revenue Department describes a one-stop service linking company incorporation and business registration applications. This administrative process does not settle a product’s financial licensing position. If the business involves a trading platform, custody, payments or other financial features, describe the precise activities so the relevant permissions can be assessed separately. Banking and tax questions also require their own scope. [IRD registration guidance](https://www.ird.gov.hk/eng/faq/osbrq.htm), [SFC platform licensing guidance](https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators)."
+          }
+        ]
+      },
+      {
+        "label": "Circulox scope and deliverables",
+        "heading": "Define the local support your company needs.",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Circulox coordinates the formation work and affiliated provider involvement agreed for your Hong Kong company. The engagement can address registered address arrangements, ownership documentation and company administration, with the secretary and local professional roles identified before proceeding."
+          },
+          {
+            "type": "paragraph",
+            "text": "You receive the company details and relevant information and documents included in the agreed scope. Continuing filings, banking preparation, tax work and any regulatory assessment are defined according to your needs and invoiced accordingly. No particular licence, bank account or local professional appointment is included by implication."
+          }
+        ]
+      },
+      {
+        "label": "Preparation and process",
+        "heading": "Bring the business and its markets into context.",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Prepare an outline of your activities, proposed ownership and directors, intended customer markets and existing group. Include the local services you need and the role of the Hong Kong entity. For a financial or digital-asset product, explain how funds or assets move and which company provides each service."
+          },
+          {
+            "type": "paragraph",
+            "text": "We discuss the formation work, local provider roles and supporting information before onboarding. A dedicated group chat then connects your team with ours for questions and updates. The quote and expected timing reflect the documents, services and application dependencies for your engagement."
+          }
+        ]
+      },
+      {
+        "label": "After formation",
+        "heading": "Plan for continuing company responsibilities.",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Company records, ownership updates and annual filings need attention after registration. The Companies Registry publishes annual return guidance for local companies, including requirements and exceptions by company type. Define the company secretary’s tasks, filing support and any tax or accounting work rather than assuming every recurring service is included with formation. [Annual return guidance](https://www.cr.gov.hk/en/faq/local-company/annual-return.htm)."
+          },
+          {
+            "type": "paragraph",
+            "text": "If the business changes its products or customer markets, revisit the regulatory and operational questions alongside the company arrangements. Keeping the entity in place and meeting the requirements of a regulated activity are separate responsibilities."
+          }
+        ]
+      },
+      {
+        "label": "Questions",
+        "heading": "Hong Kong company formation: common questions.",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Can overseas founders incorporate a Hong Kong company?"
+          },
+          {
+            "type": "paragraph",
+            "text": "Yes. The Companies Registry confirms that non-residents may incorporate a local limited company. Discuss the owners, directors and business activities before proceeding so the required information and local provider services can be identified. [Registry guidance](https://www.cr.gov.hk/en/faq/local-company/incorporation.htm)."
+          },
+          {
+            "type": "heading",
+            "text": "Does a director need to live in Hong Kong?"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Companies Registry says a director does not need to be a Hong Kong resident. Company secretary arrangements have separate local requirements. The engagement should identify those roles and the registered office support required for your company. [Registry FAQs](https://www.cr.gov.hk/en/faq/local-company/incorporation.htm)."
+          },
+          {
+            "type": "heading",
+            "text": "Does incorporation authorise a crypto exchange or other financial product?"
+          },
+          {
+            "type": "paragraph",
+            "text": "Company formation is distinct from financial regulatory permission. The SFC publishes a licensing framework for virtual asset trading platforms, but the assessment must start with your product’s actual activities and markets. Describe the proposed service so the appropriate professional input can be scoped. [SFC guidance](https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators)."
+          },
+          {
+            "type": "heading",
+            "text": "Can banking, tax and ongoing company support be included?"
+          },
+          {
+            "type": "paragraph",
+            "text": "Tell us which services you need so they can be discussed alongside formation. The engagement identifies the provider roles, deliverables and recurring work included. Banking applications, tax advice and any financial licensing support are separate tasks, with their own requirements and review processes."
+          }
+        ]
+      },
+      {
+        "label": "Next step and related expertise",
+        "heading": "Discuss your proposed Hong Kong structure.",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Tell us what the company will do, who will own it and the markets involved. Our team can discuss formation, local coordination and the related support needed for your next step."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Company incorporation & international structuring → /services/formation",
+              "Web3, crypto & fintech regulation → /services/regulation",
+              "Banking, payments & tax advisory → /services/banking",
+              "Corporate governance & legal documentation → /services/governance"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Official sources and review date",
+        "heading": "Official sources and review date",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Sources checked 6 November 2026. General information only; requirements depend on the entity, activity and circumstances. Recheck current guidance before acting."
+          },
+          {
+            "type": "list",
+            "items": [
+              "[Companies Registry — incorporation FAQs](https://www.cr.gov.hk/en/faq/local-company/incorporation.htm) — Hong Kong; checked 6 November 2026.",
+              "[Companies Registry — Significant Controllers Register](https://www.cr.gov.hk/en/legislation/scr/overview.htm) — Hong Kong; checked 6 November 2026.",
+              "[Companies Registry — annual returns](https://www.cr.gov.hk/en/faq/local-company/annual-return.htm) — Hong Kong; checked 6 November 2026.",
+              "[Inland Revenue Department — one-stop registration](https://www.ird.gov.hk/eng/faq/osbrq.htm) — Hong Kong; checked 6 November 2026.",
+              "[SFC — virtual asset trading platform operators](https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators) — Hong Kong; checked 6 November 2026."
+            ]
           }
         ]
       }

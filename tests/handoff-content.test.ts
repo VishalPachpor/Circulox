@@ -48,5 +48,5 @@ test("page metadata is complete and unique and internal handoff labels stay out 
           );
       }
   }
-  assert.equal(titles.size, 19);
+  assert.equal(titles.size, 20);
 });

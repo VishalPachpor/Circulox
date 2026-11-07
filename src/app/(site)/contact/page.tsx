@@ -39,7 +39,7 @@ export default function Contact() {
             <a href={`mailto:${generalEmail}`}>{generalEmail}</a>
             <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
             <div className="contact-address">
-              <h3>UK address</h3>
+              <h3>Our Address</h3>
               <address>
                 {ukAddress.map((line) => (
                   <span key={line}>{line}</span>

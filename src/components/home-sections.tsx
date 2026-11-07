@@ -9,26 +9,22 @@ export function Opening() {
       <div className="opening-copy">
         <div>
           <div className="label entrance">{copy.homepage.eyebrow}</div>
-          <h1 className="entrance">
-            {"Establish your business."}
-            <br />
-            <em>{"Navigate what comes next."}</em>
-          </h1>
+          <h1 className="entrance">{copy.homepage.heading}</h1>
           <p className="entrance" data-pretext={true}>
             {copy.homepage.intro}
           </p>
           <div className="opening-actions entrance">
+            <Link className="button" href="/contact">
+              Contact us
+            </Link>
             <a
-              className="button"
+              className="link"
               href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
               Book a call
             </a>
-            <Link className="link" href="/contact">
-              Contact us
-            </Link>
           </div>
         </div>
       </div>
@@ -117,7 +113,7 @@ export function Expertise() {
                 <p>
                   {"United States · United Kingdom · UAE · Singapore"}
                   <br />
-                  {"BVI · Cayman · Seychelles · India"}
+                  {"BVI · Cayman · Seychelles · Hong Kong · India"}
                 </p>
               </div>
               <ul>

@@ -84,6 +84,18 @@
     "mobileIntro": "Company formation and ownership considered alongside your business activities."
   },
   {
+    "key": "hong-kong",
+    "label": "Hong Kong",
+    "name": "Hong Kong",
+    "intro": "Consider a Hong Kong company alongside your regional operations, ownership arrangements and any financial regulatory questions raised by the product.",
+    "focus": [
+      "Company ownership and local arrangements",
+      "Regional operations and banking",
+      "Crypto and financial regulatory assessment"
+    ],
+    "mobileIntro": "Company formation and local coordination for Hong Kong business plans."
+  },
+  {
     "key": "india",
     "label": "India",
     "name": "India",
