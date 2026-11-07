@@ -260,16 +260,24 @@
 .home-page .opening-art {
   position: relative;
   overflow: hidden;
-  background: #493a31;
+  background: #493a31 center / cover no-repeat;
   min-width: 0;
 }
-.home-page .opening-art img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  position: absolute;
-  inset: 0;
+@media (width > 800px) {
+  .home-page .opening-art {
+    background-image: url("/legal-editorial.webp");
+  }
+}
+@media (560px < width <= 800px) {
+  .home-page .opening-art {
+    background-image: url("/legal-editorial-mobile.webp");
+    background-position: center 45%;
+  }
+}
+@media (max-width: 560px) {
+  .home-page .opening-art {
+    display: none;
+  }
 }
 .home-page .opening-art:after {
   content: "";
@@ -951,9 +959,6 @@
   .home-page .opening-art {
     height: 210px;
   }
-  .home-page .opening-art img {
-    object-position: center 45%;
-  }
   .home-page .opening-art .image-note {
     right: 28px;
     bottom: 20px;
@@ -1104,12 +1109,6 @@
   }
   .home-page .opening-actions .link {
     font-size: 12px;
-  }
-  .home-page .opening-art {
-    height: 115px;
-  }
-  .home-page .opening-art .image-note {
-    display: none;
   }
   .home-page .clients-head p {
     font-size: 11px;
@@ -2246,7 +2245,7 @@
 }
 
 /* Asymmetric native tweet bento: the long conversation anchors two shorter posts. */
-@media (min-width: 801px) {
+@media (width > 800px) {
   .home-page .x-feed {
     grid-template-columns: 1.05fr 1fr;
     grid-template-areas: "anchor upper" "anchor lower";
