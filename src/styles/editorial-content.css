@@ -163,6 +163,15 @@
   color: var(--muted);
   margin: -12px 0 28px;
 }
+.home-page .insights:has(> .empty-insights) {
+  padding-block: clamp(24px, 4vw, 40px);
+}
+.home-page .insights:has(> .empty-insights) .insights-introduction {
+  margin-block: 4px var(--space-2);
+}
+.home-page .insights > .empty-insights {
+  max-width: 600px;
+}
 .home-page .about-bottom p + p {
   margin-top: 16px;
 }

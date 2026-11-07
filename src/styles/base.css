@@ -107,10 +107,6 @@ summary:focus-visible {
   gap: 16px;
   font-size: 14px;
 }
-.empty-insights {
-  padding-block: 28px 60px;
-  max-width: 600px;
-}
 .inner-page .filters button {
   font: inherit;
 }
