@@ -41,7 +41,13 @@ export function ClientShowcase() {
               aria-hidden="true"
             >
               {clients.map((client) => (
-                <span className={styles.copy} key={client.url}>
+                <a
+                  key={client.url}
+                  href={client.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  tabIndex={-1}
+                >
                   <Image
                     src={client.logo}
                     alt=""
@@ -50,7 +56,7 @@ export function ClientShowcase() {
                     loading="eager"
                     className={styles[client.treatment]}
                   />
-                </span>
+                </a>
               ))}
             </div>
           </div>

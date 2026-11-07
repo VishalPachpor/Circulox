@@ -49,8 +49,7 @@
   padding: 0;
   margin: 0;
 }
-.group a,
-.copy {
+.group a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,8 +119,7 @@
   .heading {
     margin-bottom: 0;
   }
-  .group a,
-  .copy {
+  .group a {
     padding-inline: 22px;
     font-size: 19px;
     min-height: 48px;
