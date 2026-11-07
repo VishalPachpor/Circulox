@@ -28,6 +28,7 @@ export function ClientShowcase() {
                       alt={client.name}
                       width={client.width}
                       height={client.height}
+                      unoptimized
                       loading="eager"
                       className={styles[client.treatment]}
                     />
@@ -53,6 +54,7 @@ export function ClientShowcase() {
                     alt=""
                     width={client.width}
                     height={client.height}
+                    unoptimized
                     loading="eager"
                     className={styles[client.treatment]}
                   />
