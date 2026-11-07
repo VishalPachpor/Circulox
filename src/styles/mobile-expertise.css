@@ -1,95 +1,130 @@
-/* Reflow the desktop bento: featured formation, wide regulation, two smaller practices. */
-.home-page .practice-area .practice-link,
-.home-page .practice-area .practice-link:hover,
-.home-page .practice-area .practice-link:focus-visible {
+.home-page .expertise-heading {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.home-page .practice-bento {
+  --formation-tile: #514036;
+  --regulation-tile: #3c3d35;
+  --operations-tile: #393531;
+  --protection-tile: #433734;
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 3fr);
+  gap: 12px;
+}
+
+.home-page .practice-area {
+  min-width: 0;
+  padding: clamp(18px, 2vw, 28px);
+}
+
+.home-page .practice-area:nth-child(1) {
+  grid-row: span 2;
+  align-content: center;
+  background: var(--formation-tile);
+}
+
+.home-page .practice-area:nth-child(2) {
+  grid-column: span 2;
+  background: var(--regulation-tile);
+}
+
+.home-page .practice-area:nth-child(3) {
+  background: var(--operations-tile);
+}
+
+.home-page .practice-area:nth-child(4) {
+  background: var(--protection-tile);
+}
+
+.home-page .practice-area h3 {
+  margin: 0 0 12px;
+  font-size: clamp(22px, 2.1vw, 28px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.home-page .practice-area:first-child h3 {
+  font-size: clamp(24px, 2.6vw, 36px);
+}
+
+.home-page .practice-area ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  border-top: 1px solid rgb(243 238 231 / 24%);
+}
+
+.home-page .practice-area:first-child ul {
+  max-width: 26rem;
+}
+
+.home-page .practice-area:nth-child(2) ul {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 16px;
+}
+
+.home-page .practice-area .practice-link {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  font-family: var(--font-dm-sans), sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+  letter-spacing: 0;
   text-decoration: none;
 }
-.home-page .practice-area .practice-link:hover {
+
+.home-page .practice-area .practice-link:visited {
+  color: #dbc4b3;
+}
+
+.home-page .practice-area .practice-link:hover,
+.home-page .practice-area .practice-link:active {
   color: var(--practice-action);
 }
+
+.home-page .practice-area .practice-link:focus-visible {
+  color: var(--practice-action);
+  outline: 1px solid currentColor;
+  outline-offset: 2px;
+}
+
 @media (max-width: 800px) {
+  .home-page .expertise-heading {
+    margin-bottom: 16px;
+  }
+
   .home-page .practice-bento {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-    align-items: stretch;
+    gap: 8px;
   }
-  .home-page .practice-area:nth-child(n) {
-    grid-column: auto;
-    grid-row: auto;
-    min-height: 0;
-    padding: 18px;
-    border: 0;
+
+  .home-page .practice-area {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    background: #38312c;
+    padding: 12px 14px;
   }
-  .home-page .practice-area:nth-child(1) {
+
+  .home-page .practice-area:nth-child(-n+2) {
     grid-column: 1 / -1;
-    background: #44382f;
+    grid-row: auto;
   }
-  .home-page .practice-area:nth-child(2) {
-    grid-column: 1 / -1;
-    background: #37312c;
+
+  .home-page .practice-area h3 {
+    margin-bottom: 8px;
+    font-size: 21px;
   }
-  .home-page .practice-area:nth-child(4) { background: #3b332d; }
-  .home-page .practice-area h3,
-  .home-page .practice-area:first-child h3 {
-    font-size: 22px;
-    line-height: 1.15;
-    letter-spacing: -.015em;
-    margin: 0 0 10px;
-    max-width: none;
-    text-wrap: balance;
+
+  .home-page .practice-area ul {
+    margin-top: auto;
   }
-  .home-page .practice-area:first-child h3 { font-size: 26px; }
-  .home-page .practice-area > p,
-  .home-page .formation-markets { display: none; }
-  .home-page .practice-area:first-child > p {
-    display: block;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 0 12px;
-    max-width: 38ch;
-  }
-  .home-page .practice-area ul,
-  .home-page .practice-area:first-child ul {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    gap: 0;
-    list-style: none;
-  }
+
   .home-page .practice-area:nth-child(-n+2) ul {
+    max-width: none;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 16px;
+    column-gap: 12px;
   }
-  .home-page .practice-area .practice-link {
-    display: flex;
-    align-items: center;
-    min-height: 44px;
-    padding: 6px 0;
-    font-size: 16px;
-    line-height: 1.4;
-    text-decoration: none;
-  }
-  .home-page .practice-area .practice-link:hover {
-    text-decoration: none;
-    color: var(--practice-action);
-  }
-  .home-page .practice-area .practice-link:focus-visible {
-    text-decoration: none;
-    outline: 1px solid currentColor;
-    outline-offset: 3px;
-  }
-  .home-page .practice-area .practice-link:active { color: var(--practice-action); }
-  .home-page .practice-long { display: none; }
-  .home-page .practice-short { display: inline; }
-  .home-page .expertise-heading { margin-bottom: 20px; }
-}
-@media (max-width: 560px) {
-  .home-page .practice-area:nth-child(n) { padding: 16px; }
-  .home-page .practice-area h3 { font-size: 21px; }
-  .home-page .practice-area:first-child h3 { font-size: 24px; }
-  .home-page .practice-area:nth-child(-n+2) ul { column-gap: 12px; }
 }

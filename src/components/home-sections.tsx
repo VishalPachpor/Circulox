@@ -81,180 +81,60 @@ export function About() {
     </section>
   );
 }
+const practiceAreas = [
+  {
+    title: "Formation & structuring",
+    services: [
+      { slug: "formation", label: "Company formation" },
+      { slug: "startup", label: "Startup & investment" },
+    ],
+  },
+  {
+    title: "Regulation & technology",
+    services: [
+      { slug: "regulation", label: "Crypto & fintech regulation" },
+      { slug: "platform", label: "App Store compliance" },
+    ],
+  },
+  {
+    title: "Business operations",
+    services: [
+      { slug: "governance", label: "Governance & contracts" },
+      { slug: "banking", label: "Banking, payments & tax" },
+    ],
+  },
+  {
+    title: "Protection & disputes",
+    services: [
+      { slug: "ip", label: "Intellectual property" },
+      { slug: "disputes", label: "Legal notices & disputes" },
+    ],
+  },
+];
+
 export function Expertise() {
   return (
-    <section className="expertise" id="expertise">
+    <section className="expertise" id="expertise" aria-labelledby="expertise-title">
       <div className="shell">
         <div className="expertise-index reveal">
           <div className="expertise-heading">
-            <h2>{"Support for each stage of your business."}</h2>
-            <div>
-              <p>
-                {
-                  "From company formation and licensing to mobile app compliance and ongoing legal needs, our advice connects your business plans with the steps needed to move forward."
-                }
-              </p>
-            </div>
+            <h2 id="expertise-title">Our expertise.</h2>
           </div>
-          <div className="practice-bento" aria-label="Areas of practice">
-            <div className="practice-area">
-              <h3>
-                {"Formation &"}
-                <br />
-                {"structuring"}
-              </h3>
-              <p>
-                {
-                  "Choose where to establish your business, structure its ownership and prepare for investment."
-                }
-              </p>
-              <div className="formation-markets">
-                <span>{"Jurisdictions we advise on"}</span>
-                <p>
-                  {"United States · United Kingdom · UAE · Singapore"}
-                  <br />
-                  {"BVI · Cayman · Seychelles · Hong Kong · India"}
-                </p>
+          <div className="practice-bento">
+            {practiceAreas.map(({ title, services }) => (
+              <div className="practice-area" key={title}>
+                <h3>{title}</h3>
+                <ul>
+                  {services.map(({ slug, label }) => (
+                    <li key={slug}>
+                      <Link className="practice-link" href={`/services/${slug}`}>
+                        {label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul>
-                <li>
-                  <Link
-                    className="practice-link"
-                    href="/services/formation"
-                    aria-label="Company incorporation & international structuring"
-                  >
-                    <span className="practice-long">
-                      {"Company incorporation & international structuring"}
-                    </span>
-                    <span className="practice-short">
-                      {"Company formation"}
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="practice-link"
-                    href="/services/startup"
-                    aria-label="Startup & investment advisory"
-                  >
-                    <span className="practice-long">
-                      {"Startup & investment advisory"}
-                    </span>
-                    <span className="practice-short">
-                      {"Startup & investment"}
-                    </span>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="practice-area">
-              <h3>{"Regulation & technology"}</h3>
-              <p>
-                {
-                  "Understand licensing and registration requirements, and address App Store and Google Play compliance before submission or following a rejection."
-                }
-              </p>
-              <ul>
-                <li>
-                  <Link
-                    className="practice-link"
-                    href="/services/regulation"
-                    aria-label="Web3, crypto & fintech regulation"
-                  >
-                    <span className="practice-long">
-                      {"Web3, crypto & fintech regulation"}
-                    </span>
-                    <span className="practice-short">{"Crypto & fintech"}</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="practice-link"
-                    href="/services/platform"
-                    aria-label="App Store & technology compliance"
-                  >
-                    <span className="practice-long">
-                      {"App Store & technology compliance"}
-                    </span>
-                    <span className="practice-short">{"App compliance"}</span>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="practice-area">
-              <h3>{"Business operations"}</h3>
-              <p>
-                {
-                  "Put agreements, governance and operating arrangements in place, with support for banking, payments and tax questions."
-                }
-              </p>
-              <ul>
-                <li>
-                  <Link
-                    className="practice-link"
-                    href="/services/governance"
-                    aria-label="Corporate governance & documentation"
-                  >
-                    <span className="practice-long">
-                      {"Corporate governance & documentation"}
-                    </span>
-                    <span className="practice-short">
-                      {"Governance & contracts"}
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="practice-link"
-                    href="/services/banking"
-                    aria-label="Banking, payments & tax"
-                  >
-                    <span className="practice-long">
-                      {"Banking, payments & tax"}
-                    </span>
-                    <span className="practice-short">{"Banking & tax"}</span>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="practice-area">
-              <h3>{"Protection & disputes"}</h3>
-              <p>
-                {
-                  "Protect your intellectual property and respond to disputes with advice grounded in your business priorities."
-                }
-              </p>
-              <ul>
-                <li>
-                  <Link
-                    className="practice-link"
-                    href="/services/ip"
-                    aria-label="Intellectual property"
-                  >
-                    <span className="practice-long">
-                      {"Intellectual property"}
-                    </span>
-                    <span className="practice-short">
-                      {"Intellectual property"}
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="practice-link"
-                    href="/services/disputes"
-                    aria-label="Legal notices & dispute resolution"
-                  >
-                    <span className="practice-long">
-                      {"Legal notices & dispute resolution"}
-                    </span>
-                    <span className="practice-short">
-                      {"Dispute resolution"}
-                    </span>
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            ))}
           </div>
         </div>
       </div>
